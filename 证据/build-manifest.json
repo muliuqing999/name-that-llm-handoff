@@ -1,0 +1,21 @@
+{
+  "account": "liuqingmu096",
+  "kernel": "liuqingmu096/ntl-ozertuu-bounded-optimized-20261116",
+  "source_version": 37,
+  "files": {
+    "budget.py": "f19bfb5913e040f15df6226b3061b54c57c96f474772b7d9a34b2771e68da4e4",
+    "ensemble.py": "9280b27af09b99c4bee1dcc1b5b3dc46f529c09ad26e0ec24a03b7705f8a776b",
+    "gauss.py": "c1d242b28a49f574aff6920976e2d53cce9cf0d1c2fc7c9e66365d7fe051591c",
+    "infer_worker.py": "b12f9002a65b4c81cf16959f0490f877e6573e186264ed1d06aa081cf5fd86f0",
+    "native_q8.py": "5a15da3a76b44caa015107dafa01964b94db7af3ac7bf774f08f6fc779b29977",
+    "ntl660_readout.py": "c7bce874bacc8ba4eae457a6b8cc3a31f33a8531ece0548fb624da0b6c977ad3",
+    "pipe.py": "b17f266d4f26fe08c7eb0e59798bcd07fc23d932bd7eae2a64c9d5af6faa0d39",
+    "qwen_groups.py": "2bc5273d416c7bf6c9a59ffc3a6a1f5bfc84f4f52163087121354be7c1844b8d",
+    "run_optimized.py": "edc0d42c6ed070ca5a3f4207867acfcf1fba8e9d6da3abcbddf36ac09bde9234",
+    "self_check.py": "a62b8e75544cfcb9b536b3d0f745ece569e25a50cf537ccca0fc2b4bf8cca275"
+  },
+  "notebook_sha256": "28fe388a3c9604d5c01fd946b582cf750ec320a3832ec6a21cf16c83487d53fd",
+  "original_code_changed": true,
+  "new_training": false,
+  "official_score": null
+}

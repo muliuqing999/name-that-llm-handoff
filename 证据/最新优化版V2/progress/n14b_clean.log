@@ -1,0 +1,30 @@
+[      0s] train 2699 test 75
+[      1s] shared groups 58
+[      1s] tfidf skipped (zero ensemble weight)
+[      6s] l24 n14b_clean
+Loading weights:   0%|          | 0/299 [00:00<?, ?it/s]Loading weights:   0%|          | 1/299 [00:12<1:01:53, 12.46s/it]Loading weights:  23%|██▎       | 70/299 [00:12<00:29,  7.88it/s] Loading weights:  42%|████▏     | 125/299 [00:18<00:20,  8.48it/s]Loading weights:  49%|████▉     | 148/299 [00:21<00:17,  8.55it/s]Loading weights:  54%|█████▍    | 161/299 [00:22<00:15,  8.80it/s]Loading weights:  57%|█████▋    | 170/299 [00:23<00:14,  8.66it/s]Loading weights:  60%|█████▉    | 179/299 [00:24<00:13,  8.61it/s]Loading weights:  64%|██████▎   | 190/299 [00:25<00:12,  8.79it/s]Loading weights:  65%|██████▍   | 193/299 [00:26<00:11,  9.12it/s]Loading weights:  67%|██████▋   | 201/299 [00:27<00:11,  8.83it/s]Loading weights:  68%|██████▊   | 203/299 [00:27<00:10,  8.79it/s]Loading weights:  71%|███████   | 212/299 [00:28<00:09,  9.16it/s]Loading weights:  72%|███████▏  | 214/299 [00:28<00:09,  9.08it/s]Loading weights:  75%|███████▍  | 223/299 [00:29<00:08,  8.66it/s]Loading weights:  78%|███████▊  | 234/299 [00:30<00:06,  9.53it/s]Loading weights:  79%|███████▉  | 236/299 [00:30<00:06,  9.18it/s]Loading weights:  82%|████████▏ | 245/299 [00:31<00:05,  9.39it/s]Loading weights:  83%|████████▎ | 247/299 [00:32<00:05,  9.01it/s]Loading weights:  86%|████████▌ | 256/299 [00:33<00:04,  8.92it/s]Loading weights:  86%|████████▌ | 257/299 [00:33<00:04,  8.95it/s]Loading weights:  89%|████████▉ | 267/299 [00:34<00:03,  8.56it/s]Loading weights:  93%|█████████▎| 278/299 [00:35<00:02,  9.36it/s]Loading weights:  93%|█████████▎| 279/299 [00:35<00:02,  8.61it/s]Loading weights:  97%|█████████▋| 289/299 [00:36<00:01,  9.02it/s]Loading weights:  97%|█████████▋| 291/299 [00:36<00:00,  9.15it/s]Loading weights: 100%|██████████| 299/299 [00:36<00:00,  8.09it/s]
+[transformers] [1mQwen3Model LOAD REPORT[0m from: /kaggle/input/models/qwen-lm/qwen-3/transformers/14b-base/1
+Key                                                    | Status     |  | 
+-------------------------------------------------------+------------+--+-
+model.layers.{27...39}.self_attn.q_norm.weight         | UNEXPECTED |  | 
+model.layers.{27...39}.post_attention_layernorm.weight | UNEXPECTED |  | 
+model.layers.{27...39}.self_attn.k_norm.weight         | UNEXPECTED |  | 
+model.layers.{27...39}.self_attn.k_proj.weight         | UNEXPECTED |  | 
+model.layers.{27...39}.self_attn.v_proj.weight         | UNEXPECTED |  | 
+model.layers.{27...39}.mlp.down_proj.weight            | UNEXPECTED |  | 
+model.layers.{27...39}.self_attn.o_proj.weight         | UNEXPECTED |  | 
+model.layers.{27...39}.input_layernorm.weight          | UNEXPECTED |  | 
+model.layers.{27...39}.self_attn.q_proj.weight         | UNEXPECTED |  | 
+model.layers.{27...39}.mlp.gate_proj.weight            | UNEXPECTED |  | 
+model.layers.{27...39}.mlp.up_proj.weight              | UNEXPECTED |  | 
+lm_head.weight                                         | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+[     66s] l24 n14b_clean: 10 batches, 1 worker(s), 0 redone sequentially, 14s
+[     67s]   l24 n14b_clean: adapter ntl-q14-lora-v4 done (bf16 redo batches 0)
+[     87s] l24 n14b_clean: 10 batches, 1 worker(s), 0 redone sequentially, 13s
+[     88s]   l24 n14b_clean: adapter lora_qwen3_14b done (bf16 redo batches 0)
+[     88s] n14b_clean done gpu0:0.0GB gpu1:0.0GB
+[     88s] members failed: none
+[     88s] wrote blend without ATLAS {'gpt-5.6-terra': 7, 'qwen3.8-max': 7, 'claude-fable-5': 6, 'gemini-3.6-flash': 6, 'gpt-5.6-luna': 5, 'claude-opus-4-8': 5, 'gpt-5.6-sol': 4, 'glm-5.3': 4, 'kimi-k3': 4, 'gemini-3.1-pro-preview': 4, 'claude-sonnet-5': 4, 'glm-5.3-flash': 4, 'claude-opus-5': 3, 'gemini-3.8-flash': 3, 'gemini-3.7-flash': 3, 'gpt-5.5': 2, 'gpt-6-astra': 2, 'claude-opus-4-6': 2}

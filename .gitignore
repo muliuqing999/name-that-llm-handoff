@@ -1,0 +1,7 @@
+.kaggle/
+.ssh/
+.env
+.env.*
+__pycache__/
+*.pyc
+.runtime-kaggle/

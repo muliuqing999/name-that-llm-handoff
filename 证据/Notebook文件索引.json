@@ -1,0 +1,37 @@
+[
+  {
+    "label": "当前优化GPU版V2",
+    "file": "Notebooks\\当前优化GPU版V2\\optimized.ipynb",
+    "sha256": "28fe388a3c9604d5c01fd946b582cf750ec320a3832ec6a21cf16c83487d53fd"
+  },
+  {
+    "label": "原ozertuuV37超时版勿提交",
+    "file": "Notebooks\\原ozertuuV37超时版勿提交\\ozertuu-v37-reproduction.ipynb",
+    "sha256": "1cb8f3efe80909554427bcbd635f73b3fd7e323180ec49cef7052b3edcd2798e"
+  },
+  {
+    "label": "DhananjayV10已评分0689",
+    "file": "Notebooks\\DhananjayV10已评分0689\\dhananjay-v10-reproduction.ipynb",
+    "sha256": "21ccb44ea968a43805d0e4a2e6d6fbdf1f320e6be4314de9335be552a1f93a07"
+  },
+  {
+    "label": "whitegg已评分0679",
+    "file": "Notebooks\\whitegg已评分0679\\ntl-whitegg-fuse33-real-inference-reproduction.ipynb",
+    "sha256": "1715e2cc4ca6cb494a4313f2db25d47fbc423a6d1f6d1aed5ab9ae0f19e3174e"
+  },
+  {
+    "label": "完整复现已评分0636",
+    "file": "Notebooks\\完整复现已评分0636\\ntl_complement_fixed.ipynb",
+    "sha256": "06b57cb41cf59b70678271877b7a08a748ddf6f7d5216aaad22485ac3e2a92f0"
+  },
+  {
+    "label": "ATLAS队伍R4参考",
+    "file": "Notebooks\\ATLAS队伍R4参考\\ntl-a20-r4-426fb9e8032af08b451e7134907b0a4f.ipynb",
+    "sha256": "fe3f8bfbf2ba7ddf49cdd1714ba2d0a6869472876ac13ba75590b95f876a45a1"
+  },
+  {
+    "label": "自训项目模板需核对版本",
+    "file": "自训项目当前源码\\kaggle\\submit.ipynb",
+    "sha256": "bc6463a8f7720317467fb1b0f6a8b21b5bcab7f4cd712a1ad0a5710df990fd75"
+  }
+]

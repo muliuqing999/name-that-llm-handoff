@@ -1,0 +1,32 @@
+[      0s] train 2699 test 75
+[      1s] shared groups 58
+[      1s] tfidf skipped (zero ensemble weight)
+[      6s] l24 q14v5
+Loading weights:   0%|          | 0/299 [00:00<?, ?it/s]Loading weights:   0%|          | 1/299 [00:11<58:08, 11.71s/it]Loading weights:  24%|██▎       | 71/299 [00:11<00:26,  8.48it/s]Loading weights:  41%|████      | 122/299 [00:17<00:20,  8.47it/s]Loading weights:  48%|████▊     | 144/299 [00:20<00:18,  8.33it/s]Loading weights:  52%|█████▏    | 156/299 [00:22<00:17,  8.25it/s]Loading weights:  55%|█████▍    | 164/299 [00:23<00:17,  7.73it/s]Loading weights:  57%|█████▋    | 170/299 [00:25<00:18,  6.84it/s]Loading weights:  60%|█████▉    | 179/299 [00:26<00:18,  6.43it/s]Loading weights:  61%|██████    | 182/299 [00:27<00:17,  6.77it/s]Loading weights:  64%|██████▎   | 190/299 [00:28<00:17,  6.39it/s]Loading weights:  64%|██████▍   | 192/299 [00:29<00:17,  6.26it/s]Loading weights:  67%|██████▋   | 201/299 [00:30<00:15,  6.25it/s]Loading weights:  68%|██████▊   | 203/299 [00:30<00:15,  6.08it/s]Loading weights:  71%|███████   | 212/299 [00:32<00:13,  6.32it/s]Loading weights:  72%|███████▏  | 214/299 [00:32<00:12,  6.62it/s]Loading weights:  75%|███████▍  | 223/299 [00:33<00:11,  6.39it/s]Loading weights:  78%|███████▊  | 234/299 [00:35<00:08,  7.23it/s]Loading weights:  79%|███████▊  | 235/299 [00:35<00:09,  7.10it/s]Loading weights:  79%|███████▉  | 236/299 [00:35<00:09,  6.97it/s]Loading weights:  82%|████████▏ | 245/299 [00:36<00:07,  7.39it/s]Loading weights:  83%|████████▎ | 247/299 [00:36<00:06,  7.62it/s]Loading weights:  86%|████████▌ | 256/299 [00:38<00:05,  7.17it/s]Loading weights:  89%|████████▉ | 267/299 [00:39<00:04,  7.82it/s]Loading weights:  90%|████████▉ | 268/299 [00:39<00:04,  7.54it/s]Loading weights:  93%|█████████▎| 278/299 [00:40<00:02,  8.18it/s]Loading weights:  93%|█████████▎| 279/299 [00:40<00:02,  8.10it/s]Loading weights:  94%|█████████▎| 280/299 [00:41<00:02,  7.59it/s]Loading weights:  97%|█████████▋| 289/299 [00:42<00:01,  7.74it/s]Loading weights: 100%|██████████| 299/299 [00:42<00:00,  7.06it/s]
+[transformers] [1mQwen3Model LOAD REPORT[0m from: /kaggle/input/models/qwen-lm/qwen-3/transformers/14b-base/1
+Key                                                    | Status     |  | 
+-------------------------------------------------------+------------+--+-
+model.layers.{27...39}.mlp.down_proj.weight            | UNEXPECTED |  | 
+model.layers.{27...39}.self_attn.k_norm.weight         | UNEXPECTED |  | 
+model.layers.{27...39}.post_attention_layernorm.weight | UNEXPECTED |  | 
+model.layers.{27...39}.mlp.up_proj.weight              | UNEXPECTED |  | 
+model.layers.{27...39}.input_layernorm.weight          | UNEXPECTED |  | 
+model.layers.{27...39}.self_attn.q_proj.weight         | UNEXPECTED |  | 
+model.layers.{27...39}.self_attn.k_proj.weight         | UNEXPECTED |  | 
+model.layers.{27...39}.self_attn.o_proj.weight         | UNEXPECTED |  | 
+model.layers.{27...39}.mlp.gate_proj.weight            | UNEXPECTED |  | 
+model.layers.{27...39}.self_attn.q_norm.weight         | UNEXPECTED |  | 
+model.layers.{27...39}.self_attn.v_proj.weight         | UNEXPECTED |  | 
+lm_head.weight                                         | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+[     70s] l24 q14v5: 10 batches, 1 worker(s), 0 redone sequentially, 13s
+[     71s]   l24 q14v5: adapter q14v5 done (bf16 redo batches 0)
+[     96s] l24 q14v5: 10 batches, 1 worker(s), 0 redone sequentially, 13s
+[     98s]   l24 q14v5: adapter q14v5_f0 done (bf16 redo batches 0)
+[    117s] l24 q14v5: 10 batches, 1 worker(s), 0 redone sequentially, 13s
+[    118s]   l24 q14v5: adapter q14v5_f1 done (bf16 redo batches 0)
+[    118s] q14v5 done gpu0:0.0GB gpu1:0.0GB
+[    118s] members failed: none
+[    118s] wrote blend without ATLAS {'gpt-5.6-terra': 7, 'qwen3.8-max': 7, 'gemini-3.6-flash': 6, 'glm-5.3-flash': 6, 'gpt-5.6-sol': 5, 'claude-fable-5': 5, 'claude-sonnet-5': 4, 'glm-5.3': 4, 'gpt-5.6-luna': 4, 'claude-opus-4-8': 4, 'gemini-3.8-flash': 4, 'claude-opus-4-6': 3, 'gpt-5.5': 3, 'gemini-3.1-pro-preview': 3, 'kimi-k3': 3, 'gemini-3.7-flash': 3, 'claude-opus-5': 2, 'gpt-6-astra': 2}

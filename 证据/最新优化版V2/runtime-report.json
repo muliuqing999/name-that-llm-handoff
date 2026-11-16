@@ -1,0 +1,247 @@
+{
+  "account": "liuqingmu096",
+  "source": "ozertuu Version 37",
+  "is_timing_benchmark": true,
+  "official_test_rows": 3,
+  "inference_rows": 75,
+  "benchmark_accuracy_not_validated": true,
+  "removed": [
+    "complementary stack",
+    "Gaussian extra train inference",
+    "GSQ 27B",
+    "GLM likelihood reranker"
+  ],
+  "main_adapters_per_family": 3,
+  "native_folds_requested": 3,
+  "stages": [
+    {
+      "name": "semantic-groups",
+      "status": "complete",
+      "returncode": 0,
+      "seconds": 88.78544805500002,
+      "limit_seconds": 420
+    },
+    {
+      "name": "deb",
+      "status": "complete",
+      "returncode": 0,
+      "seconds": 166.02498053700003,
+      "limit_seconds": 600
+    },
+    {
+      "name": "q8v5",
+      "status": "complete",
+      "returncode": 0,
+      "seconds": 73.94507681200002,
+      "limit_seconds": 600
+    },
+    {
+      "name": "q14v5",
+      "status": "complete",
+      "returncode": 0,
+      "seconds": 122.58896635400004,
+      "limit_seconds": 780
+    },
+    {
+      "name": "n14b_clean",
+      "status": "complete",
+      "returncode": 0,
+      "seconds": 97.33132258800003,
+      "limit_seconds": 780
+    },
+    {
+      "name": "ll8v5",
+      "status": "complete",
+      "returncode": 0,
+      "seconds": 111.94391977400005,
+      "limit_seconds": 600
+    },
+    {
+      "name": "q25_14",
+      "status": "complete",
+      "returncode": 0,
+      "seconds": 83.44481714200015,
+      "limit_seconds": 600
+    },
+    {
+      "name": "native",
+      "status": "complete",
+      "returncode": 0,
+      "seconds": 109.91414110400001,
+      "limit_seconds": 900
+    }
+  ],
+  "completed_members": [
+    "deb",
+    "q8v5",
+    "q14v5",
+    "n14b_clean",
+    "ll8v5",
+    "q25_14"
+  ],
+  "native_folds": [
+    0,
+    1,
+    2
+  ],
+  "elapsed_seconds": 959.8848099299998,
+  "mode": "main_plus_native",
+  "setup_seconds": 22.657604203000005,
+  "specs": [
+    {
+      "name": "deb",
+      "type": "enc",
+      "ckpt": "/kaggle/input/datasets/nishantdahal/ntl-handwriting-blend/deberta_v3_large",
+      "w": 1.0
+    },
+    {
+      "name": "q8v5",
+      "type": "l24",
+      "path": "/kaggle/input/models/qwen-lm/qwen-3/transformers/8b-base/1",
+      "adapters": [
+        "/kaggle/input/datasets/dhruvtibarewal/nlm-l24-adapters-v5/q8v5",
+        "/kaggle/input/datasets/dhruvtibarewal/nlm-l24-adapters-v5/q8v5_f0",
+        "/kaggle/input/datasets/dhruvtibarewal/nlm-l24-adapters-v5/q8v5_f1"
+      ],
+      "keep": 24,
+      "layers": [
+        2,
+        4,
+        6,
+        8,
+        12,
+        16,
+        20,
+        24
+      ],
+      "w": 2.0,
+      "bs": 16,
+      "max_len": 384,
+      "twin": 0.35,
+      "dp": true
+    },
+    {
+      "name": "q14v5",
+      "type": "l24",
+      "path": "/kaggle/input/models/qwen-lm/qwen-3/transformers/14b-base/1",
+      "adapters": [
+        "/kaggle/input/datasets/dhruvtibarewal/nlm-l24-adapters-v5/q14v5",
+        "/kaggle/input/datasets/dhruvtibarewal/nlm-l24-adapters-v5/q14v5_f0",
+        "/kaggle/input/datasets/dhruvtibarewal/nlm-l24-adapters-v5/q14v5_f1"
+      ],
+      "keep": 27,
+      "layers": [
+        2,
+        4,
+        6,
+        8,
+        12,
+        16,
+        20,
+        24
+      ],
+      "w": 3.0,
+      "bs": 8,
+      "max_len": 384,
+      "twin": 0.35
+    },
+    {
+      "name": "n14b_clean",
+      "type": "l24",
+      "path": "/kaggle/input/models/qwen-lm/qwen-3/transformers/14b-base/1",
+      "adapters": [
+        "/kaggle/input/datasets/nuridudak/ntl-q14-lora-v4",
+        "/kaggle/input/datasets/nishantdahal/ntl-handwriting-blend/lora_qwen3_14b"
+      ],
+      "adapter_weights": [
+        0.72,
+        0.28
+      ],
+      "keep": 27,
+      "layers": [
+        2,
+        4,
+        6,
+        9,
+        13,
+        17,
+        22,
+        27
+      ],
+      "w": 2.5,
+      "bs": 8,
+      "max_len": 447,
+      "twin": 0.35,
+      "no_final_norm": true,
+      "eos_id": 151643
+    },
+    {
+      "name": "ll8v5",
+      "type": "l24",
+      "path": "/kaggle/input/models/alexchilton/llama-3-1-8b-base/transformers/default/1",
+      "adapters": [
+        "/kaggle/input/datasets/dhruvtibarewal/nlm-l24-adapters-v5/ll8v5",
+        "/kaggle/input/datasets/dhruvtibarewal/nlm-l24-adapters-v5/ll8v5_f0",
+        "/kaggle/input/datasets/dhruvtibarewal/nlm-l24-adapters-v5/ll8v5_f1"
+      ],
+      "keep": 24,
+      "layers": [
+        2,
+        4,
+        6,
+        8,
+        12,
+        16,
+        20,
+        24
+      ],
+      "w": 1.0,
+      "bs": 16,
+      "max_len": 384,
+      "twin": 0.35,
+      "dp": true
+    },
+    {
+      "name": "q25_14",
+      "type": "l24",
+      "path": "/kaggle/input/models/qwen-lm/qwen2.5/transformers/14b/1",
+      "adapters": [
+        "/kaggle/input/datasets/nishantdahal/ntl-handwriting-blend/lora_qwen25_14b"
+      ],
+      "keep": 32,
+      "layers": [
+        3,
+        5,
+        8,
+        11,
+        16,
+        21,
+        27,
+        32
+      ],
+      "w": 1.0,
+      "bs": 8,
+      "max_len": 447,
+      "twin": 0.35,
+      "no_final_norm": true,
+      "eos_id": 151643
+    }
+  ],
+  "native_agreement": [
+    0.8533333333333334,
+    0.8,
+    0.8533333333333334
+  ],
+  "final_rows": 3,
+  "final_valid": true,
+  "estimated_4000_inference_seconds": {
+    "semantic-groups": 4735.223896266668,
+    "deb": 8854.665628640001,
+    "q8v5": 3943.7374299733347,
+    "q14v5": 6538.078205546669,
+    "n14b_clean": 5191.003871360002,
+    "ll8v5": 5970.342387946669,
+    "q25_14": 4450.390247573341,
+    "native": 5862.087525546667
+  }
+}

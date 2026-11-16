@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "torch_version": "2.11.0+cu128",
+  "cuda_version": "12.8",
+  "available": true,
+  "device_count": 2,
+  "devices": [
+    "Tesla T4",
+    "Tesla T4"
+  ]
+}

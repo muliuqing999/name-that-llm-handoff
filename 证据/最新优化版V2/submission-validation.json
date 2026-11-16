@@ -1,0 +1,34 @@
+{
+  "ok": true,
+  "account": "liuqingmu096",
+  "version": 2,
+  "real_inference_rows": 75,
+  "main_members": [
+    "deb",
+    "q8v5",
+    "q14v5",
+    "n14b_clean",
+    "ll8v5",
+    "q25_14"
+  ],
+  "native_folds": [
+    0,
+    1,
+    2
+  ],
+  "posix_process_tree_timeout_test": true,
+  "public_runtime_seconds": 959.8848099299998,
+  "estimated_4000_inference_seconds": {
+    "semantic-groups": 4735.223896266668,
+    "deb": 8854.665628640001,
+    "q8v5": 3943.7374299733347,
+    "q14v5": 6538.078205546669,
+    "n14b_clean": 5191.003871360002,
+    "ll8v5": 5970.342387946669,
+    "q25_14": 4450.390247573341,
+    "native": 5862.087525546667
+  },
+  "accuracy_not_estimated_from_timing_fixture": true,
+  "official_score": null,
+  "submission_sha256": "2d26e7de920e646e14db358bafe001e292800b4fed1d3c19c077d5eae204e9ba"
+}

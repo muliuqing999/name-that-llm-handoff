@@ -1,0 +1,216 @@
+{
+  "account": "liuqingmu096",
+  "competition": "name-that-llm",
+  "checked_utc": "2026-11-16T07:46:48.916266+00:00",
+  "submissions": [
+    {
+      "ref": 58421503,
+      "date": "2026-11-16T07:28:16.697000",
+      "description": "ozertuu v37 optimized bounded pipeline v2; real 75-row timing check; atomic fallback; liuqingmu096; 20261116",
+      "status": "PENDING",
+      "error": "",
+      "public_score": "",
+      "private_score": "",
+      "submitted_by": "liuqingmu096",
+      "team": "mojohugo"
+    },
+    {
+      "ref": 58379230,
+      "date": "2026-11-15T09:50:45.957000",
+      "description": "ozertuu v37 reproduction; original code/assets/credits preserved; liuqingmu096; 20261115",
+      "status": "COMPLETE",
+      "error": "Your submission notebook exceeded the allowed runtime. Review the competition's Code Requirements page for the time limits. Note that the hidden dataset can be larger/smaller/different than the public dataset.",
+      "public_score": "",
+      "private_score": "",
+      "submitted_by": "liuqingmu096",
+      "team": "mojohugo"
+    },
+    {
+      "ref": 58337205,
+      "date": "2026-11-14T08:26:32.300000",
+      "description": "Dhananjay Kothawale v10 reproduction; original code/settings/credits preserved; liuqingmu096; 20261114",
+      "status": "COMPLETE",
+      "error": "",
+      "public_score": "0.689",
+      "private_score": "",
+      "submitted_by": "liuqingmu096",
+      "team": "mojohugo"
+    },
+    {
+      "ref": 58295446,
+      "date": "2026-11-13T04:39:47.860000",
+      "description": "whitegg fuse33 liuqingmu096 retry1 of 58293228; unchanged verified v1; 20261113",
+      "status": "COMPLETE",
+      "error": "",
+      "public_score": "0.679",
+      "private_score": "",
+      "submitted_by": "liuqingmu096",
+      "team": "mojohugo"
+    },
+    {
+      "ref": 58293228,
+      "date": "2026-11-13T03:09:23.727000",
+      "description": "whitegg fuse33 verified ensemble; liuqingmu096 account; native50 sibling10; 20261113",
+      "status": "COMPLETE",
+      "error": "",
+      "public_score": "0.679",
+      "private_score": "",
+      "submitted_by": "liuqingmu096",
+      "team": "mojohugo"
+    },
+    {
+      "ref": 58276197,
+      "date": "2026-11-12T14:41:59.907000",
+      "description": "whitegg fuse33 v1 forced real inference; native50 sibling10; 20261112",
+      "status": "COMPLETE",
+      "error": "",
+      "public_score": "0.679",
+      "private_score": "",
+      "submitted_by": "mojohugo",
+      "team": "mojohugo"
+    },
+    {
+      "ref": 57833615,
+      "date": "2026-10-31T09:03:49.470000",
+      "description": "ATLAS20 R8 R4-only svc4 temperature 0.234793076894; mojohugo/ntl-r8-svc-calibrated-r4-20261031/1",
+      "status": "COMPLETE",
+      "error": "",
+      "public_score": "0.661",
+      "private_score": "",
+      "submitted_by": "mojohugo",
+      "team": "mojohugo"
+    },
+    {
+      "ref": 57798970,
+      "date": "2026-10-30T08:16:42.863000",
+      "description": "ATLAS20 R7 expanded ensemble with calibrated StyleDistance 20% within four decoder groups; mojohugo/ntl-r7-four-style-expanded-20261030/4",
+      "status": "COMPLETE",
+      "error": "",
+      "public_score": "0.654",
+      "private_score": "",
+      "submitted_by": "mojohugo",
+      "team": "mojohugo"
+    },
+    {
+      "ref": 57792375,
+      "date": "2026-10-30T04:23:44.803000",
+      "description": "ATLAS20 R6 expanded four-model blend 20%; mojohugo/ntl-expanded-r6-20261030/2",
+      "status": "COMPLETE",
+      "error": "",
+      "public_score": "0.660",
+      "private_score": "",
+      "submitted_by": "mojohugo",
+      "team": "mojohugo"
+    },
+    {
+      "ref": 57778652,
+      "date": "2026-10-29T17:49:23.710000",
+      "description": "ATLAS20 cached CPU optimized atlas20-cachedcpu-20261030-r4; mojohugo/ntl-a20-r4-426fb9e8032af08b451e7134907b0a4f/1; sha 3c2d7486f7bc7232",
+      "status": "COMPLETE",
+      "error": "",
+      "public_score": "0.662",
+      "private_score": "",
+      "submitted_by": "mojohugo",
+      "team": "mojohugo"
+    },
+    {
+      "ref": 57747844,
+      "date": "2026-10-28T20:09:52.270000",
+      "description": "Qwen3 run40740424907 final refit; notebook v2",
+      "status": "COMPLETE",
+      "error": "",
+      "public_score": "0.586",
+      "private_score": "",
+      "submitted_by": "mojohugo",
+      "team": "mojohugo"
+    },
+    {
+      "ref": 57706812,
+      "date": "2026-10-27T16:09:55.623000",
+      "description": "NTL fixed3b8e333 V1 all-members preview verified 2026-10-28",
+      "status": "COMPLETE",
+      "error": "",
+      "public_score": "0.636",
+      "private_score": "",
+      "submitted_by": "liuqingmu096",
+      "team": "mojohugo"
+    },
+    {
+      "ref": 57569591,
+      "date": "2026-10-23T18:37:11.560000",
+      "description": "NTL-v7-361482022",
+      "status": "COMPLETE",
+      "error": "",
+      "public_score": "0.601",
+      "private_score": "",
+      "submitted_by": "kiddingma",
+      "team": "mojohugo"
+    },
+    {
+      "ref": 57546749,
+      "date": "2026-10-23T02:58:19.407000",
+      "description": "Notebook NTL SOTA 0604 Dual LoRA Gaussian Hungarian | Version 5",
+      "status": "COMPLETE",
+      "error": "Your notebook hit an unhandled error while rerunning your code. Note that the hidden dataset can be larger/smaller/different than the public dataset",
+      "public_score": "",
+      "private_score": "",
+      "submitted_by": "kiddingma",
+      "team": "mojohugo"
+    },
+    {
+      "ref": 57503877,
+      "date": "2026-10-22T01:03:50.077000",
+      "description": "Notebook NTL SOTA 0604 Dual LoRA Gaussian Hungarian | Version 2",
+      "status": "COMPLETE",
+      "error": "Your notebook hit an unhandled error while rerunning your code. Note that the hidden dataset can be larger/smaller/different than the public dataset",
+      "public_score": "",
+      "private_score": "",
+      "submitted_by": "kiddingma",
+      "team": "mojohugo"
+    },
+    {
+      "ref": 57503817,
+      "date": "2026-10-22T01:01:49.143000",
+      "description": "Notebook v1_Vishak | Version 2",
+      "status": "COMPLETE",
+      "error": "Your notebook hit an unhandled error while rerunning your code. Note that the hidden dataset can be larger/smaller/different than the public dataset",
+      "public_score": "",
+      "private_score": "",
+      "submitted_by": "kiddingma",
+      "team": "mojohugo"
+    },
+    {
+      "ref": 57477922,
+      "date": "2026-10-21T10:38:43.113000",
+      "description": "Notebook LoRA x Adaptive Centering | Version 2",
+      "status": "COMPLETE",
+      "error": "Your notebook hit an unhandled error while rerunning your code. Note that the hidden dataset can be larger/smaller/different than the public dataset",
+      "public_score": "",
+      "private_score": "",
+      "submitted_by": "kiddingma",
+      "team": "mojohugo"
+    },
+    {
+      "ref": 57474150,
+      "date": "2026-10-21T08:43:08.967000",
+      "description": "Notebook notebook4c81c75745 | Version 2",
+      "status": "COMPLETE",
+      "error": "",
+      "public_score": "0.365",
+      "private_score": "",
+      "submitted_by": "kiddingma",
+      "team": "mojohugo"
+    },
+    {
+      "ref": 57440549,
+      "date": "2026-10-20T13:51:07.280000",
+      "description": "",
+      "status": "COMPLETE",
+      "error": "",
+      "public_score": "0.053",
+      "private_score": "",
+      "submitted_by": "kiddingma",
+      "team": "mojohugo"
+    }
+  ]
+}

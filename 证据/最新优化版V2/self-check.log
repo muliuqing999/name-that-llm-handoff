@@ -1,0 +1,4 @@
+RED_CONFIRMED_NESTED_SESSION_ESCAPED_GROUP_ONLY_KILL
+{"name": "tree", "status": "timeout", "returncode": -9, "seconds": 0.25407422499998233, "limit_seconds": 0.25}
+READY
+POSIX_PROCESS_TREE_TIMEOUT_AND_CHECKPOINT_PASSED

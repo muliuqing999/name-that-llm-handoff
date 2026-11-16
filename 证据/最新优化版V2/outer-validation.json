@@ -1,0 +1,12 @@
+{
+  "valid": true,
+  "rows": 3,
+  "pipeline": {
+    "name": "pipeline",
+    "status": "complete",
+    "returncode": 0,
+    "seconds": 960.5632727729999,
+    "limit_seconds": 6900
+  },
+  "public_timing_benchmark": true
+}

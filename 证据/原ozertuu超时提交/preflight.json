@@ -1,0 +1,17 @@
+{
+  "account": "liuqingmu096",
+  "source": "ozertuu/0-689-dual-svc-residual-refinement-apex",
+  "source_version": 37,
+  "source_sha256": "979122fca91f045e01e80c7f52d8d38e36b8811b8c882cbf2adba3c73413de7d",
+  "code_cells": 21,
+  "original_code_cells_identical": true,
+  "original_credits_preserved": true,
+  "dataset_sources": 26,
+  "kernel_sources": 9,
+  "model_sources": 9,
+  "gpu": "NvidiaTeslaT4",
+  "internet": false,
+  "public_preview_is_not_full_inference": true,
+  "official_score": null,
+  "prepared_utc": "2026-11-15T09:40:42.383290+00:00"
+}

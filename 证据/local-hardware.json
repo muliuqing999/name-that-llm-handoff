@@ -1,0 +1,11 @@
+{
+  "logical_processors": 12,
+  "memory_bytes": 17007173632,
+  "cpu_names": [
+    "11th Gen Intel(R) Core(TM) i5-11400H @ 2.70GHz"
+  ],
+  "video_names": [
+    "GameViewer Virtual Display Adapter",
+    "NVIDIA GeForce RTX 3050 Laptop GPU"
+  ]
+}

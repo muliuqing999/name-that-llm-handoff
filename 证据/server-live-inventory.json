@@ -1,0 +1,4174 @@
+{
+  "checked_utc": "2026-11-16T07:21:35.461741+00:00",
+  "python": "3.10.13 (main, Sep 10 2025, 10:23:41) [GCC 11.4.0]",
+  "executable": "/root/name-that-llm/ppu-compat-env/bin/python",
+  "platform": "Linux-5.10.134-17.2.al8.x86_64-x86_64-with-glibc2.35",
+  "cpu_count": 256,
+  "packages": {
+    "torch": "2.4.0+ppu1.5.0.oe",
+    "transformers": "4.57.6",
+    "accelerate": "1.14.0",
+    "peft": "0.17.1",
+    "numpy": "2.0.2",
+    "pandas": "2.3.3",
+    "scipy": "1.15.3",
+    "scikit-learn": "1.7.2",
+    "lightgbm": "4.6.0",
+    "pyarrow": "18.1.0",
+    "tokenizers": "0.22.2",
+    "safetensors": "0.6.2",
+    "bitsandbytes": null,
+    "protobuf": "3.20.3"
+  },
+  "cpu_affinity_count": 256,
+  "cgroup_limits": {
+    "cpu/cpu.cfs_quota_us": "2400000",
+    "cpu/cpu.cfs_period_us": "100000",
+    "cpu,cpuacct/cpu.cfs_quota_us": "2400000",
+    "cpu,cpuacct/cpu.cfs_period_us": "100000",
+    "memory/memory.limit_in_bytes": "180388626432"
+  },
+  "torch_runtime": {
+    "version": "2.4.0",
+    "cuda_build": "11.8",
+    "available": true,
+    "device_count": 2,
+    "devices": [
+      {
+        "name": "PPU-ZW810E",
+        "total_memory_bytes": 103079215104
+      },
+      {
+        "name": "PPU-ZW810E",
+        "total_memory_bytes": 103079215104
+      }
+    ]
+  },
+  "memory_kib": {
+    "MemTotal": "1580621764 kB",
+    "MemAvailable": "1469559912 kB"
+  },
+  "disk": {
+    "/root/name-that-llm": {
+      "total_bytes": 3719290880000,
+      "free_bytes": 1571894743040
+    },
+    "/workspace/name-that-llm": {
+      "total_bytes": 18446744073692774400,
+      "free_bytes": 18446744073692774400
+    },
+    "/kaggle/input": {
+      "total_bytes": 3719290880000,
+      "free_bytes": 1571894743040
+    }
+  },
+  "top_level": {
+    "/root/name-that-llm": [
+      {
+        "name": "RESULTS_SUPPORTED_BRANCHES.md",
+        "is_dir": false
+      },
+      {
+        "name": "__pycache__",
+        "is_dir": true
+      },
+      {
+        "name": "archive_native_and_groups.py",
+        "is_dir": false
+      },
+      {
+        "name": "archive_supported_phase.py",
+        "is_dir": false
+      },
+      {
+        "name": "asset_download.log",
+        "is_dir": false
+      },
+      {
+        "name": "asset_download.pid",
+        "is_dir": false
+      },
+      {
+        "name": "audit_current_phase.py",
+        "is_dir": false
+      },
+      {
+        "name": "audit_recovered_resources.py",
+        "is_dir": false
+      },
+      {
+        "name": "aux-group-.log",
+        "is_dir": false
+      },
+      {
+        "name": "aux-group-glm9b.log",
+        "is_dir": false
+      },
+      {
+        "name": "aux-group-q25_7b.log",
+        "is_dir": false
+      },
+      {
+        "name": "aux-group-q3_4b.log",
+        "is_dir": false
+      },
+      {
+        "name": "aux-group-q3_8b.log",
+        "is_dir": false
+      },
+      {
+        "name": "auxiliary-group-validation",
+        "is_dir": true
+      },
+      {
+        "name": "backups",
+        "is_dir": true
+      },
+      {
+        "name": "bounded_kaggle_cli.py",
+        "is_dir": false
+      },
+      {
+        "name": "collect_validate_kaggle_full.py",
+        "is_dir": false
+      },
+      {
+        "name": "course-reproduction-20261112",
+        "is_dir": true
+      },
+      {
+        "name": "fetch_assets_cli2.py",
+        "is_dir": false
+      },
+      {
+        "name": "group-path-validation",
+        "is_dir": true
+      },
+      {
+        "name": "group-path-validation.log",
+        "is_dir": false
+      },
+      {
+        "name": "handoff-3b8e33318902",
+        "is_dir": true
+      },
+      {
+        "name": "handoff.zip",
+        "is_dir": false
+      },
+      {
+        "name": "kaggle-cli-env",
+        "is_dir": true
+      },
+      {
+        "name": "kaggle-code-submission",
+        "is_dir": true
+      },
+      {
+        "name": "kaggle-full",
+        "is_dir": true
+      },
+      {
+        "name": "kaggle-full-live.log",
+        "is_dir": false
+      },
+      {
+        "name": "kaggle-full-output",
+        "is_dir": true
+      },
+      {
+        "name": "kaggle-full-pulled",
+        "is_dir": true
+      },
+      {
+        "name": "kaggle-round5",
+        "is_dir": true
+      },
+      {
+        "name": "kaggle-runtime-output",
+        "is_dir": true
+      },
+      {
+        "name": "kaggle-runtime-probe",
+        "is_dir": true
+      },
+      {
+        "name": "kaggle_read_status_details.py",
+        "is_dir": false
+      },
+      {
+        "name": "lora-group-path-validation",
+        "is_dir": true
+      },
+      {
+        "name": "lora-group-path-validation.log",
+        "is_dir": false
+      },
+      {
+        "name": "native-cpu-final-install.log",
+        "is_dir": false
+      },
+      {
+        "name": "native-cpu-freeze.txt",
+        "is_dir": false
+      },
+      {
+        "name": "native-cpu-reference-env",
+        "is_dir": true
+      },
+      {
+        "name": "native-cpu-reference-install.log",
+        "is_dir": false
+      },
+      {
+        "name": "native-cpu-torch-install.log",
+        "is_dir": false
+      },
+      {
+        "name": "native-qwen35.log",
+        "is_dir": false
+      },
+      {
+        "name": "native-reference-validation",
+        "is_dir": true
+      },
+      {
+        "name": "native-ultrabert-attempt01-serialization.log",
+        "is_dir": false
+      },
+      {
+        "name": "native-ultrabert.log",
+        "is_dir": false
+      },
+      {
+        "name": "native_tokenizer_reference.py",
+        "is_dir": false
+      },
+      {
+        "name": "official-data",
+        "is_dir": true
+      },
+      {
+        "name": "ppu-bnb-probe-env",
+        "is_dir": true
+      },
+      {
+        "name": "ppu-compat-env",
+        "is_dir": true
+      },
+      {
+        "name": "ppu-runtime-investigation",
+        "is_dir": true
+      },
+      {
+        "name": "ppu-transformers5-probe-env",
+        "is_dir": true
+      },
+      {
+        "name": "ppu-validation",
+        "is_dir": true
+      },
+      {
+        "name": "ppu_probe_compat.py",
+        "is_dir": false
+      },
+      {
+        "name": "prepare_main_resume.py",
+        "is_dir": false
+      },
+      {
+        "name": "pro-workspace",
+        "is_dir": true
+      },
+      {
+        "name": "probe_auxiliary_group_views.py",
+        "is_dir": false
+      },
+      {
+        "name": "probe_bnb_import.py",
+        "is_dir": false
+      },
+      {
+        "name": "probe_complement_lora_ppu.py",
+        "is_dir": false
+      },
+      {
+        "name": "probe_cpu_members.py",
+        "is_dir": false
+      },
+      {
+        "name": "probe_deberta_ppu.py",
+        "is_dir": false
+      },
+      {
+        "name": "probe_encoder_plain_ppu.py",
+        "is_dir": false
+      },
+      {
+        "name": "probe_glm_grouping.py",
+        "is_dir": false
+      },
+      {
+        "name": "probe_lora_group_paths.py",
+        "is_dir": false
+      },
+      {
+        "name": "probe_main_standalone.py",
+        "is_dir": false
+      },
+      {
+        "name": "probe_native_missing_members.py",
+        "is_dir": false
+      },
+      {
+        "name": "probe_qwen25_ppu.py",
+        "is_dir": false
+      },
+      {
+        "name": "probe_qwen3_ppu.py",
+        "is_dir": false
+      },
+      {
+        "name": "probe_token_atlas_ppu.py",
+        "is_dir": false
+      },
+      {
+        "name": "public-data",
+        "is_dir": true
+      },
+      {
+        "name": "qwen14b_retry.log",
+        "is_dir": false
+      },
+      {
+        "name": "qwen14b_retry.pid",
+        "is_dir": false
+      },
+      {
+        "name": "read_kaggle_live_logs.py",
+        "is_dir": false
+      },
+      {
+        "name": "recover_original_resources.py",
+        "is_dir": false
+      },
+      {
+        "name": "resource-recovery",
+        "is_dir": true
+      },
+      {
+        "name": "status-inspections",
+        "is_dir": true
+      },
+      {
+        "name": "submit_verified_kaggle.py",
+        "is_dir": false
+      },
+      {
+        "name": "torch-2.6.0+cpu-cp310-cp310-linux_x86_64.whl",
+        "is_dir": false
+      },
+      {
+        "name": "validate_real_group_heads.py",
+        "is_dir": false
+      },
+      {
+        "name": "verify_saved_kaggle_source.py",
+        "is_dir": false
+      },
+      {
+        "name": "whitegg-reproduction-20261112",
+        "is_dir": true
+      },
+      {
+        "name": "whitegg-tools",
+        "is_dir": true
+      }
+    ],
+    "/workspace/name-that-llm": [
+      {
+        "name": "HANDOFF_AND_TRAINING_2026-10-27.md",
+        "is_dir": false
+      },
+      {
+        "name": "HANDOFF_NameThatLLM_2026-10-27_zh.md",
+        "is_dir": false
+      },
+      {
+        "name": "NameThatLLM_delivery_2026-10-28.zip",
+        "is_dir": false
+      },
+      {
+        "name": "data",
+        "is_dir": true
+      },
+      {
+        "name": "deliverables-2026-10-28",
+        "is_dir": true
+      },
+      {
+        "name": "handoff-3b8e33318902",
+        "is_dir": true
+      },
+      {
+        "name": "receipts",
+        "is_dir": true
+      },
+      {
+        "name": "web-pro-checkpoints",
+        "is_dir": true
+      }
+    ],
+    "/kaggle/input": [
+      {
+        "name": "competitions",
+        "is_dir": true
+      },
+      {
+        "name": "datasets",
+        "is_dir": true
+      },
+      {
+        "name": "models",
+        "is_dir": true
+      },
+      {
+        "name": "notebooks",
+        "is_dir": true
+      }
+    ]
+  },
+  "assets": [
+    {
+      "relative_dir": "competitions",
+      "files": 0
+    },
+    {
+      "relative_dir": "datasets/abdullah1afify/ntl-generations",
+      "files": 4,
+      "bytes": 911057,
+      "checkpoint_files": []
+    },
+    {
+      "relative_dir": "datasets/bbucxi/qwen35-9b-safetensors",
+      "files": 10,
+      "bytes": 19329294373,
+      "checkpoint_files": []
+    },
+    {
+      "relative_dir": "datasets/dhruvtibarewal/nlm-l24-adapters",
+      "files": 88,
+      "bytes": 3730983134,
+      "checkpoint_files": [
+        "ts_q3b14_f1/adapter_model.safetensors",
+        "ts8_s7_f1/adapter_model.safetensors",
+        "ts8_s7_f4/adapter_model.safetensors",
+        "ts8_s7_f2/adapter_model.safetensors",
+        "ts_llama8_f4/adapter_model.safetensors",
+        "ts_q3b8_f4/adapter_model.safetensors",
+        "ts_q3b8_f1/adapter_model.safetensors",
+        "ts_q3b14_f0/adapter_model.safetensors",
+        "l24x_q3b8/adapter_model.safetensors",
+        "ts_q3b14/adapter_model.safetensors",
+        "ts_q3b14_f4/adapter_model.safetensors",
+        "ts_llama8_f3/adapter_model.safetensors",
+        "ts_llama8/adapter_model.safetensors",
+        "ts8_s7_f3/adapter_model.safetensors",
+        "ts_llama8_f0/adapter_model.safetensors",
+        "l24x_q25_7b/adapter_model.safetensors",
+        "ts_llama8_f1/adapter_model.safetensors",
+        "ts_q25_7b/adapter_model.safetensors",
+        "ts8_s7/adapter_model.safetensors",
+        "ts_q3b8_f3/adapter_model.safetensors",
+        "ts_q3b8/adapter_model.safetensors",
+        "ts_q3b8_f0/adapter_model.safetensors",
+        "ts8_s7_f0/adapter_model.safetensors",
+        "ts_q3b8_f2/adapter_model.safetensors",
+        "ts_q3b14_f3/adapter_model.safetensors",
+        "ts_q3b14_f2/adapter_model.safetensors",
+        "ts_llama8_f2/adapter_model.safetensors"
+      ]
+    },
+    {
+      "relative_dir": "datasets/dhruvtibarewal/nlm-matched-clean",
+      "files": 3,
+      "bytes": 83376272,
+      "checkpoint_files": []
+    },
+    {
+      "relative_dir": "datasets/dhruvtibarewal/nlm-offline-wheels",
+      "files": 4,
+      "bytes": 45193795,
+      "checkpoint_files": []
+    },
+    {
+      "relative_dir": "datasets/dophuchung/ntl-proxy-generations",
+      "files": 2,
+      "bytes": 891947,
+      "checkpoint_files": []
+    },
+    {
+      "relative_dir": "datasets/fleongg/ntl-legacy-qwen24-recovery",
+      "files": 15,
+      "bytes": 138146537,
+      "checkpoint_files": []
+    },
+    {
+      "relative_dir": "datasets/fleongg/ntl-quality-selected-public-svc-pool",
+      "files": 7,
+      "bytes": 22551878,
+      "checkpoint_files": []
+    },
+    {
+      "relative_dir": "datasets/josephadamski91/ntl-atlas-qwen3-8b-v1",
+      "files": 15,
+      "bytes": 462803915,
+      "checkpoint_files": []
+    },
+    {
+      "relative_dir": "datasets/lucasboesen/ntl-free-proxy-generations",
+      "files": 2,
+      "bytes": 6068379,
+      "checkpoint_files": []
+    },
+    {
+      "relative_dir": "datasets/nishantdahal/ntl-handwriting-blend",
+      "files": 15,
+      "bytes": 1281363560,
+      "checkpoint_files": [
+        "lora_qwen3_14b/heads.safetensors",
+        "lora_qwen3_14b/adapter/adapter_model.safetensors",
+        "lora_qwen25_14b/heads.safetensors",
+        "lora_qwen25_14b/adapter/adapter_model.safetensors",
+        "deberta_v3_large/head.safetensors"
+      ]
+    },
+    {
+      "relative_dir": "datasets/nishantdahal/ntl-two-stage-lora",
+      "files": 11,
+      "bytes": 317728259,
+      "checkpoint_files": [
+        "lora14b_v1/heads.safetensors",
+        "lora14b_v1/adapter/adapter_model.safetensors",
+        "lora8b_v1/heads.safetensors",
+        "lora8b_v1/adapter/adapter_model.safetensors"
+      ]
+    },
+    {
+      "relative_dir": "datasets/pjmathematician/ultrabert-380m-ntl",
+      "files": 56,
+      "bytes": 3819222687,
+      "checkpoint_files": []
+    },
+    {
+      "relative_dir": "datasets/prvsiyan/prvsiyans-extended-name-that-llm-dataset",
+      "files": 13,
+      "bytes": 97252706,
+      "checkpoint_files": []
+    },
+    {
+      "relative_dir": "datasets/seyitkaangunes/ntl-extra-api-passages",
+      "files": 3,
+      "bytes": 4660571,
+      "checkpoint_files": []
+    },
+    {
+      "relative_dir": "datasets/zbigniewkirchner/ntl-qwen3-8b-lora-claude-head",
+      "files": 17,
+      "bytes": 321066208,
+      "checkpoint_files": [
+        "fold0/COMPLETE.json",
+        "fold0/heads.safetensors",
+        "fold0/adapter/adapter_model.safetensors",
+        "final/COMPLETE.json",
+        "final/heads.safetensors",
+        "final/adapter/adapter_model.safetensors"
+      ]
+    },
+    {
+      "relative_dir": "models/qwen-lm/qwen-3",
+      "files": 69,
+      "bytes": 99947796669,
+      "checkpoint_files": []
+    },
+    {
+      "relative_dir": "models/qwen-lm/qwen2.5",
+      "files": 32,
+      "bytes": 44794491086,
+      "checkpoint_files": []
+    },
+    {
+      "relative_dir": "notebooks/lucasboesen/name-that-llm-desklib-weights",
+      "files": 6,
+      "bytes": 1744440217,
+      "checkpoint_files": []
+    },
+    {
+      "relative_dir": "notebooks/lucasboesen/name-that-llm-electra-large-weights",
+      "files": 6,
+      "bytes": 1337133945,
+      "checkpoint_files": []
+    },
+    {
+      "relative_dir": "notebooks/lucasboesen/name-that-llm-extract-encoders2",
+      "files": 11,
+      "bytes": 2120538003,
+      "checkpoint_files": []
+    },
+    {
+      "relative_dir": "notebooks/lucasboesen/name-that-llm-glm4-9b-trunc25",
+      "files": 8,
+      "bytes": 11459987786,
+      "checkpoint_files": []
+    },
+    {
+      "relative_dir": "notebooks/lucasboesen/name-that-llm-train-lora24-s7",
+      "files": 30,
+      "bytes": 319503562,
+      "checkpoint_files": [
+        "lora_out/job_4/COMPLETE.json",
+        "lora_out/job_final/COMPLETE.json",
+        "lora_out/job_final/adapter/adapter_model.safetensors",
+        "lora_out/job_3/COMPLETE.json",
+        "lora_out/job_0/COMPLETE.json",
+        "lora_out/job_2/COMPLETE.json",
+        "lora_out/job_1/COMPLETE.json"
+      ]
+    },
+    {
+      "relative_dir": "notebooks/lucasboesen/name-that-llm-train-tokattn",
+      "files": 4,
+      "bytes": 1368061,
+      "checkpoint_files": []
+    },
+    {
+      "relative_dir": "notebooks/lucasboesen/name-that-llm-train-tokattn2",
+      "files": 6,
+      "bytes": 1907992,
+      "checkpoint_files": []
+    },
+    {
+      "relative_dir": "notebooks/vnton37nguyn/ntl-train-lora-qwen25-instyle",
+      "files": 24,
+      "bytes": 229145792,
+      "checkpoint_files": [
+        "lora_out/job_final/COMPLETE.json",
+        "lora_out/job_final/adapter/adapter_model.safetensors",
+        "lora_out/job_0/COMPLETE.json",
+        "lora_out/job_2/COMPLETE.json",
+        "lora_out/job_1/COMPLETE.json"
+      ]
+    }
+  ],
+  "base_model_versions": [
+    {
+      "path": "/kaggle/input/models/qwen-lm/qwen-3/Transformers/14b/1",
+      "relative_dir": "models/qwen-lm/qwen-3/Transformers/14b/1",
+      "config": {
+        "model_type": "qwen3",
+        "architectures": [
+          "Qwen3ForCausalLM"
+        ],
+        "hidden_size": 5120,
+        "num_hidden_layers": 40,
+        "vocab_size": 151936,
+        "torch_dtype": "bfloat16"
+      }
+    },
+    {
+      "path": "/kaggle/input/models/qwen-lm/qwen-3/Transformers/14b-base/1",
+      "relative_dir": "models/qwen-lm/qwen-3/Transformers/14b-base/1",
+      "config": {
+        "model_type": "qwen3",
+        "architectures": [
+          "Qwen3ForCausalLM"
+        ],
+        "hidden_size": 5120,
+        "num_hidden_layers": 40,
+        "vocab_size": 151936,
+        "torch_dtype": "bfloat16"
+      }
+    },
+    {
+      "path": "/kaggle/input/models/qwen-lm/qwen-3/Transformers/8b/1",
+      "relative_dir": "models/qwen-lm/qwen-3/Transformers/8b/1",
+      "config": {
+        "model_type": "qwen3",
+        "architectures": [
+          "Qwen3ForCausalLM"
+        ],
+        "hidden_size": 4096,
+        "num_hidden_layers": 36,
+        "vocab_size": 151936,
+        "torch_dtype": "bfloat16"
+      }
+    },
+    {
+      "path": "/kaggle/input/models/qwen-lm/qwen-3/Transformers/8b-base/1",
+      "relative_dir": "models/qwen-lm/qwen-3/Transformers/8b-base/1",
+      "config": {
+        "model_type": "qwen3",
+        "architectures": [
+          "Qwen3ForCausalLM"
+        ],
+        "hidden_size": 4096,
+        "num_hidden_layers": 36,
+        "vocab_size": 151936,
+        "torch_dtype": "bfloat16"
+      }
+    },
+    {
+      "path": "/kaggle/input/models/qwen-lm/qwen-3/Transformers/4b-base/1",
+      "relative_dir": "models/qwen-lm/qwen-3/Transformers/4b-base/1",
+      "config": {
+        "model_type": "qwen3",
+        "architectures": [
+          "Qwen3ForCausalLM"
+        ],
+        "hidden_size": 2560,
+        "num_hidden_layers": 36,
+        "vocab_size": 151936,
+        "torch_dtype": "bfloat16"
+      }
+    },
+    {
+      "path": "/kaggle/input/models/qwen-lm/qwen2.5/Transformers/14b/1",
+      "relative_dir": "models/qwen-lm/qwen2.5/Transformers/14b/1",
+      "config": {
+        "model_type": "qwen2",
+        "architectures": [
+          "Qwen2ForCausalLM"
+        ],
+        "hidden_size": 5120,
+        "num_hidden_layers": 48,
+        "vocab_size": 152064,
+        "torch_dtype": "bfloat16"
+      }
+    },
+    {
+      "path": "/kaggle/input/models/qwen-lm/qwen2.5/Transformers/7b/1",
+      "relative_dir": "models/qwen-lm/qwen2.5/Transformers/7b/1",
+      "config": {
+        "model_type": "qwen2",
+        "architectures": [
+          "Qwen2ForCausalLM"
+        ],
+        "hidden_size": 3584,
+        "num_hidden_layers": 28,
+        "vocab_size": 152064,
+        "torch_dtype": "bfloat16"
+      }
+    }
+  ],
+  "project_checkpoint_evidence": {
+    "/root/name-that-llm/pro-workspace": [
+      {
+        "path": "/root/name-that-llm/pro-workspace/round5-c66-v2-bundle-a1.json",
+        "bytes": 134002
+      },
+      {
+        "path": "/root/name-that-llm/pro-workspace/round5-reference64-bundle-a1.json",
+        "bytes": 147749
+      },
+      {
+        "path": "/root/name-that-llm/pro-workspace/round5-c66-bundle-a1.json",
+        "bytes": 190168
+      },
+      {
+        "path": "/root/name-that-llm/pro-workspace/round5-encoder-bundle-a1.json",
+        "bytes": 138757
+      },
+      {
+        "path": "/root/name-that-llm/pro-workspace/round5-encoder-review-bundle-a1.json",
+        "bytes": 49971
+      },
+      {
+        "path": "/root/name-that-llm/pro-workspace/round5-parallel-bundle-a1.json",
+        "bytes": 80712
+      },
+      {
+        "path": "/root/name-that-llm/pro-workspace/c66-validation-r5-20261029-a1/plan.json",
+        "bytes": 1026
+      },
+      {
+        "path": "/root/name-that-llm/pro-workspace/c66-validation-r5-20261029-a1/short-push-intent.json",
+        "bytes": 442
+      },
+      {
+        "path": "/root/name-that-llm/pro-workspace/c66-validation-r5-20261029-a1/initial-readback.json",
+        "bytes": 772
+      },
+      {
+        "path": "/root/name-that-llm/pro-workspace/c66-validation-r5-20261029-a1/short-push-receipt.json",
+        "bytes": 953
+      },
+      {
+        "path": "/root/name-that-llm/pro-workspace/c66-validation-r5-20261029-a1/short-v3-initial-pull/kernel-metadata.json",
+        "bytes": 1985
+      },
+      {
+        "path": "/root/name-that-llm/pro-workspace/full-plan-review/v28meta.json",
+        "bytes": 649513
+      },
+      {
+        "path": "/root/name-that-llm/pro-workspace/full-plan-review/components-v4-source.json",
+        "bytes": 245001
+      },
+      {
+        "path": "/root/name-that-llm/pro-workspace/full-plan-review/nlmv27_fixed.json",
+        "bytes": 155459
+      },
+      {
+        "path": "/root/name-that-llm/pro-workspace/full-plan-review/spectral_dataset.json",
+        "bytes": 4452
+      },
+      {
+        "path": "/root/name-that-llm/pro-workspace/full-plan-review/spectral.json",
+        "bytes": 145196
+      },
+      {
+        "path": "/root/name-that-llm/pro-workspace/full-plan-review/avazaku_v3.md",
+        "bytes": 2580
+      },
+      {
+        "path": "/root/name-that-llm/pro-workspace/full-plan-review/svc-cost-a1.json",
+        "bytes": 299
+      },
+      {
+        "path": "/root/name-that-llm/pro-workspace/full-plan-review/cosmorin-pull.json",
+        "bytes": 48512
+      },
+      {
+        "path": "/root/name-that-llm/pro-workspace/full-plan-review/v28.json",
+        "bytes": 319907
+      },
+      {
+        "path": "/root/name-that-llm/pro-workspace/full-plan-review/stress-coverage.json",
+        "bytes": 4514
+      },
+      {
+        "path": "/root/name-that-llm/pro-workspace/full-plan-review/artifacts_dataset.json",
+        "bytes": 21559
+      },
+      {
+        "path": "/root/name-that-llm/pro-workspace/full-plan-review/public-source-1.json",
+        "bytes": 6084
+      },
+      {
+        "path": "/root/name-that-llm/pro-workspace/full-plan-review/avazaku_v3.json",
+        "bytes": 158419
+      },
+      {
+        "path": "/root/name-that-llm/pro-workspace/full-plan-review/spectral/all_markdown.md",
+        "bytes": 14252
+      },
+      {
+        "path": "/root/name-that-llm/pro-workspace/full-plan-review/recovered-public-oof-a1/source_manifest.json",
+        "bytes": 18076
+      },
+      {
+        "path": "/root/name-that-llm/pro-workspace/full-plan-review/preflight-component-a1/preflight.json",
+        "bytes": 3651
+      },
+      {
+        "path": "/root/name-that-llm/pro-workspace/full-plan-review/preflight-component-a2/preflight.json",
+        "bytes": 9821
+      },
+      {
+        "path": "/root/name-that-llm/pro-workspace/full-plan-review/preflight-component-a2/runtime.json",
+        "bytes": 5073
+      },
+      {
+        "path": "/root/name-that-llm/pro-workspace/full-plan-review/preflight-component-a2/manifest.json",
+        "bytes": 1323
+      },
+      {
+        "path": "/root/name-that-llm/pro-workspace/full-plan-review/v28/all_markdown.md",
+        "bytes": 7722
+      },
+      {
+        "path": "/root/name-that-llm/pro-workspace/round5-encoder-review-a1/training-summary.json",
+        "bytes": 2551
+      },
+      {
+        "path": "/root/name-that-llm/pro-workspace/project/KAGGLE_ACCOUNT_POLICY.md",
+        "bytes": 1682
+      },
+      {
+        "path": "/root/name-that-llm/pro-workspace/project/README.md",
+        "bytes": 4488
+      },
+      {
+        "path": "/root/name-that-llm/pro-workspace/project/AGENTS.md",
+        "bytes": 339
+      },
+      {
+        "path": "/root/name-that-llm/pro-workspace/project/reports/README.md",
+        "bytes": 371
+      },
+      {
+        "path": "/root/name-that-llm/pro-workspace/project/reports/kaggle-account-current.json",
+        "bytes": 502
+      },
+      {
+        "path": "/root/name-that-llm/pro-workspace/project/experiments/two-stage.example.json",
+        "bytes": 390
+      },
+      {
+        "path": "/root/name-that-llm/pro-workspace/project/experiments/request.example.json",
+        "bytes": 217
+      },
+      {
+        "path": "/root/name-that-llm/pro-workspace/project/experiments/request.json",
+        "bytes": 401
+      },
+      {
+        "path": "/root/name-that-llm/pro-workspace/project/experiments/ppu-benchmark.example.json",
+        "bytes": 232
+      },
+      {
+        "path": "/root/name-that-llm/pro-workspace/project/experiments/qwen3.example.json",
+        "bytes": 238
+      },
+      {
+        "path": "/root/name-that-llm/pro-workspace/project/generation/models.example.json",
+        "bytes": 5671
+      },
+      {
+        "path": "/root/name-that-llm/pro-workspace/project/docs/DATA_GENERATION.md",
+        "bytes": 7604
+      },
+      {
+        "path": "/root/name-that-llm/pro-workspace/project/docs/public-data-manifest.json",
+        "bytes": 7405
+      },
+      {
+        "path": "/root/name-that-llm/pro-workspace/project/docs/KAGGLE_ACCOUNT_POLICY.md",
+        "bytes": 1682
+      },
+      {
+        "path": "/root/name-that-llm/pro-workspace/project/docs/VERIFICATION_2026-10-28.md",
+        "bytes": 5535
+      },
+      {
+        "path": "/root/name-that-llm/pro-workspace/project/docs/two-stage-verification.json",
+        "bytes": 1455
+      },
+      {
+        "path": "/root/name-that-llm/pro-workspace/project/docs/performance-cache-verification.json",
+        "bytes": 1102
+      },
+      {
+        "path": "/root/name-that-llm/pro-workspace/project/docs/KAGGLE_SUBMISSION.md",
+        "bytes": 2700
+      },
+      {
+        "path": "/root/name-that-llm/pro-workspace/project/docs/TRAINING_HANDOFF.md",
+        "bytes": 4296
+      },
+      {
+        "path": "/root/name-that-llm/pro-workspace/project/docs/WEB_PRO.md",
+        "bytes": 6122
+      },
+      {
+        "path": "/root/name-that-llm/pro-workspace/project/mcp-acceptance/round3-inference-shortcheck.json",
+        "bytes": 901
+      },
+      {
+        "path": "/root/name-that-llm/pro-workspace/project/mcp-acceptance/round3-oof-token-audit.json",
+        "bytes": 3031
+      },
+      {
+        "path": "/root/name-that-llm/pro-workspace/round5-public-review/lightningv08/kernel-metadata.json",
+        "bytes": 2004
+      },
+      {
+        "path": "/root/name-that-llm/pro-workspace/round5-public-review/alexchilton/kernel-metadata.json",
+        "bytes": 2007
+      },
+      {
+        "path": "/root/name-that-llm/pro-workspace/round5-public-review/mercurydust/kernel-metadata.json",
+        "bytes": 1966
+      },
+      {
+        "path": "/root/name-that-llm/pro-workspace/round5-public-review/romantamrazov/kernel-metadata.json",
+        "bytes": 1932
+      },
+      {
+        "path": "/root/name-that-llm/pro-workspace/c66-validation-r5-20261029-a2/plan.json",
+        "bytes": 1099
+      },
+      {
+        "path": "/root/name-that-llm/pro-workspace/depth40-v3-src/preflight_request.json",
+        "bytes": 411
+      },
+      {
+        "path": "/root/name-that-llm/pro-workspace/depth40-v3-src/depth_inference_probe.json",
+        "bytes": 1391
+      },
+      {
+        "path": "/root/name-that-llm/pro-workspace/depth40-v3-src/grouping_4000.json",
+        "bytes": 478
+      }
+    ],
+    "/workspace/name-that-llm/web-pro-checkpoints": [
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/transport-mcp-v4-20261029-1158-a2-probe-report.json",
+        "bytes": 32796
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/transport-mcp-v4-20261029-1200-a1-probe-report.json",
+        "bytes": 8940
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/backup-acceptance-two-stage-5a4005bc1814/heads.safetensors",
+        "bytes": 6227664
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/backup-acceptance-two-stage-5a4005bc1814/meta.json",
+        "bytes": 1783
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/backup-acceptance-two-stage-5a4005bc1814/adapter/README.md",
+        "bytes": 5242
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/backup-acceptance-two-stage-5a4005bc1814/adapter/adapter_config.json",
+        "bytes": 1068
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/backup-acceptance-two-stage-5a4005bc1814/adapter/adapter_model.safetensors",
+        "bytes": 173456688
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a1/intervention.json",
+        "bytes": 1242
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a1/plan.json",
+        "bytes": 1026
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a1/status.json",
+        "bytes": 234
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a1/commands/00001-short-status.json",
+        "bytes": 456
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a1/commands/00001-short-status.stderr.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a1/commands/00001-short-status.stdout.log",
+        "bytes": 72
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a1/commands/00002-short-status.json",
+        "bytes": 455
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a1/commands/00002-short-status.stderr.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a1/commands/00002-short-status.stdout.log",
+        "bytes": 72
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a1/commands/00003-short-status.json",
+        "bytes": 455
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a1/commands/00003-short-status.stderr.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a1/commands/00003-short-status.stdout.log",
+        "bytes": 72
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a1/commands/00004-short-status.json",
+        "bytes": 456
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a1/commands/00004-short-status.stderr.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a1/commands/00004-short-status.stdout.log",
+        "bytes": 72
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a1/commands/00005-short-status.json",
+        "bytes": 455
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a1/commands/00005-short-status.stderr.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a1/commands/00005-short-status.stdout.log",
+        "bytes": 72
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a1/commands/00006-short-status.json",
+        "bytes": 455
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a1/commands/00006-short-status.stderr.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a1/commands/00006-short-status.stdout.log",
+        "bytes": 72
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a1/commands/00007-short-status.json",
+        "bytes": 456
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a1/commands/00007-short-status.stderr.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a1/commands/00007-short-status.stdout.log",
+        "bytes": 72
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a1/commands/00008-short-status.json",
+        "bytes": 454
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a1/commands/00008-short-status.stderr.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a1/commands/00008-short-status.stdout.log",
+        "bytes": 72
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a1/commands/00009-short-status.json",
+        "bytes": 455
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a1/commands/00009-short-status.stderr.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a1/commands/00009-short-status.stdout.log",
+        "bytes": 72
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a1/commands/00010-short-status.json",
+        "bytes": 456
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a1/commands/00010-short-status.stderr.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a1/commands/00010-short-status.stdout.log",
+        "bytes": 72
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a1/events/00001.json",
+        "bytes": 184
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a1/events/00002.json",
+        "bytes": 314
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a1/events/00003.json",
+        "bytes": 235
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a1/events/00004.json",
+        "bytes": 315
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a1/events/00005.json",
+        "bytes": 234
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a1/events/00006.json",
+        "bytes": 314
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a1/events/00007.json",
+        "bytes": 234
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a1/events/00008.json",
+        "bytes": 315
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a1/events/00009.json",
+        "bytes": 235
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a1/events/00010.json",
+        "bytes": 314
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a1/events/00011.json",
+        "bytes": 235
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a1/events/00012.json",
+        "bytes": 314
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a1/events/00013.json",
+        "bytes": 233
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a1/events/00014.json",
+        "bytes": 315
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a1/events/00015.json",
+        "bytes": 235
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a1/events/00016.json",
+        "bytes": 314
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a1/events/00017.json",
+        "bytes": 234
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a1/events/00018.json",
+        "bytes": 315
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a1/events/00019.json",
+        "bytes": 234
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a1/events/00020.json",
+        "bytes": 314
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a1/events/00021.json",
+        "bytes": 234
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/plan.json",
+        "bytes": 1099
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/status.json",
+        "bytes": 235
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00001-short-status.json",
+        "bytes": 456
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00001-short-status.stderr.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00001-short-status.stdout.log",
+        "bytes": 72
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00002-short-status.json",
+        "bytes": 456
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00002-short-status.stderr.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00002-short-status.stdout.log",
+        "bytes": 72
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00003-short-status.json",
+        "bytes": 456
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00003-short-status.stderr.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00003-short-status.stdout.log",
+        "bytes": 72
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00004-short-status.json",
+        "bytes": 456
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00004-short-status.stderr.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00004-short-status.stdout.log",
+        "bytes": 72
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00005-short-status.json",
+        "bytes": 456
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00005-short-status.stderr.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00005-short-status.stdout.log",
+        "bytes": 72
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00006-short-status.json",
+        "bytes": 455
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00006-short-status.stderr.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00006-short-status.stdout.log",
+        "bytes": 72
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00007-short-status.json",
+        "bytes": 456
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00007-short-status.stderr.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00007-short-status.stdout.log",
+        "bytes": 72
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00008-short-status.json",
+        "bytes": 456
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00008-short-status.stderr.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00008-short-status.stdout.log",
+        "bytes": 72
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00009-short-status.json",
+        "bytes": 455
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00009-short-status.stderr.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00009-short-status.stdout.log",
+        "bytes": 72
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00010-short-status.json",
+        "bytes": 456
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00010-short-status.stderr.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00010-short-status.stdout.log",
+        "bytes": 72
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00011-short-status.json",
+        "bytes": 456
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00011-short-status.stderr.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00011-short-status.stdout.log",
+        "bytes": 72
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00012-short-status.json",
+        "bytes": 455
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00012-short-status.stderr.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00012-short-status.stdout.log",
+        "bytes": 72
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00013-short-status.json",
+        "bytes": 454
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00013-short-status.stderr.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00013-short-status.stdout.log",
+        "bytes": 72
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00014-short-status.json",
+        "bytes": 456
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00014-short-status.stderr.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00014-short-status.stdout.log",
+        "bytes": 72
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00015-short-status.json",
+        "bytes": 456
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00015-short-status.stderr.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00015-short-status.stdout.log",
+        "bytes": 72
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00016-short-status.json",
+        "bytes": 455
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00016-short-status.stderr.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00016-short-status.stdout.log",
+        "bytes": 72
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00017-short-status.json",
+        "bytes": 456
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00017-short-status.stderr.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00017-short-status.stdout.log",
+        "bytes": 72
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00018-short-status.json",
+        "bytes": 455
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00018-short-status.stderr.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00018-short-status.stdout.log",
+        "bytes": 72
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00019-short-status.json",
+        "bytes": 455
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00019-short-status.stderr.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00019-short-status.stdout.log",
+        "bytes": 72
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00020-short-status.json",
+        "bytes": 455
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00020-short-status.stderr.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00020-short-status.stdout.log",
+        "bytes": 72
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00021-short-status.json",
+        "bytes": 455
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00021-short-status.stderr.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00021-short-status.stdout.log",
+        "bytes": 72
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00022-short-status.json",
+        "bytes": 456
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00022-short-status.stderr.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00022-short-status.stdout.log",
+        "bytes": 72
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00023-short-status.json",
+        "bytes": 456
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00023-short-status.stderr.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00023-short-status.stdout.log",
+        "bytes": 72
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00024-short-status.json",
+        "bytes": 455
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00024-short-status.stderr.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00024-short-status.stdout.log",
+        "bytes": 72
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00025-short-status.json",
+        "bytes": 456
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00025-short-status.stderr.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00025-short-status.stdout.log",
+        "bytes": 72
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00026-short-status.json",
+        "bytes": 455
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00026-short-status.stderr.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00026-short-status.stdout.log",
+        "bytes": 72
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00027-short-status.json",
+        "bytes": 456
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00027-short-status.stderr.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00027-short-status.stdout.log",
+        "bytes": 72
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00028-short-status.json",
+        "bytes": 456
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00028-short-status.stderr.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00028-short-status.stdout.log",
+        "bytes": 72
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00029-short-status.json",
+        "bytes": 456
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00029-short-status.stderr.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00029-short-status.stdout.log",
+        "bytes": 72
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00030-short-status.json",
+        "bytes": 456
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00030-short-status.stderr.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00030-short-status.stdout.log",
+        "bytes": 72
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00031-short-status.json",
+        "bytes": 456
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00031-short-status.stderr.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00031-short-status.stdout.log",
+        "bytes": 72
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00032-short-status.json",
+        "bytes": 455
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00032-short-status.stderr.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00032-short-status.stdout.log",
+        "bytes": 72
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00033-short-status.json",
+        "bytes": 456
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00033-short-status.stderr.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00033-short-status.stdout.log",
+        "bytes": 72
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00034-short-status.json",
+        "bytes": 456
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00034-short-status.stderr.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00034-short-status.stdout.log",
+        "bytes": 72
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00035-short-status.json",
+        "bytes": 455
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00035-short-status.stderr.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00035-short-status.stdout.log",
+        "bytes": 72
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00036-short-status.json",
+        "bytes": 456
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00036-short-status.stderr.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00036-short-status.stdout.log",
+        "bytes": 72
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00037-short-status.json",
+        "bytes": 456
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00037-short-status.stderr.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00037-short-status.stdout.log",
+        "bytes": 72
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00038-short-status.json",
+        "bytes": 456
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00038-short-status.stderr.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00038-short-status.stdout.log",
+        "bytes": 72
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00039-short-status.json",
+        "bytes": 456
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00039-short-status.stderr.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00039-short-status.stdout.log",
+        "bytes": 72
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00040-short-status.json",
+        "bytes": 456
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00040-short-status.stderr.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00040-short-status.stdout.log",
+        "bytes": 72
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00041-short-status.json",
+        "bytes": 455
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00041-short-status.stderr.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00041-short-status.stdout.log",
+        "bytes": 72
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00042-short-status.json",
+        "bytes": 455
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00042-short-status.stderr.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00042-short-status.stdout.log",
+        "bytes": 72
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00043-short-status.json",
+        "bytes": 456
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00043-short-status.stderr.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00043-short-status.stdout.log",
+        "bytes": 72
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00044-short-status.json",
+        "bytes": 455
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00044-short-status.stderr.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00044-short-status.stdout.log",
+        "bytes": 72
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00045-short-status.json",
+        "bytes": 455
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00045-short-status.stderr.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00045-short-status.stdout.log",
+        "bytes": 72
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00046-short-status.json",
+        "bytes": 456
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00046-short-status.stderr.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00046-short-status.stdout.log",
+        "bytes": 72
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00047-short-status.json",
+        "bytes": 456
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00047-short-status.stderr.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00047-short-status.stdout.log",
+        "bytes": 72
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00048-short-status.json",
+        "bytes": 456
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00048-short-status.stderr.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00048-short-status.stdout.log",
+        "bytes": 72
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00049-short-status.json",
+        "bytes": 456
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00049-short-status.stderr.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00049-short-status.stdout.log",
+        "bytes": 72
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00050-short-status.json",
+        "bytes": 456
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00050-short-status.stderr.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00050-short-status.stdout.log",
+        "bytes": 72
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00051-short-status.json",
+        "bytes": 455
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00051-short-status.stderr.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00051-short-status.stdout.log",
+        "bytes": 72
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00052-short-status.json",
+        "bytes": 455
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00052-short-status.stderr.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00052-short-status.stdout.log",
+        "bytes": 72
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00053-short-status.json",
+        "bytes": 454
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00053-short-status.stderr.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00053-short-status.stdout.log",
+        "bytes": 72
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00054-short-status.json",
+        "bytes": 456
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00054-short-status.stderr.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00054-short-status.stdout.log",
+        "bytes": 72
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00055-short-status.json",
+        "bytes": 456
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00055-short-status.stderr.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00055-short-status.stdout.log",
+        "bytes": 72
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00056-short-status.json",
+        "bytes": 456
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00056-short-status.stderr.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00056-short-status.stdout.log",
+        "bytes": 72
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00057-short-status.json",
+        "bytes": 455
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00057-short-status.stderr.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00057-short-status.stdout.log",
+        "bytes": 72
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00058-short-status.json",
+        "bytes": 456
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00058-short-status.stderr.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00058-short-status.stdout.log",
+        "bytes": 72
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00059-short-status.json",
+        "bytes": 455
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00059-short-status.stderr.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/commands/00059-short-status.stdout.log",
+        "bytes": 72
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00001.json",
+        "bytes": 184
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00002.json",
+        "bytes": 315
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00003.json",
+        "bytes": 234
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00004.json",
+        "bytes": 314
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00005.json",
+        "bytes": 234
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00006.json",
+        "bytes": 313
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00007.json",
+        "bytes": 233
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00008.json",
+        "bytes": 313
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00009.json",
+        "bytes": 234
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00010.json",
+        "bytes": 315
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00011.json",
+        "bytes": 235
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00012.json",
+        "bytes": 315
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00013.json",
+        "bytes": 235
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00014.json",
+        "bytes": 315
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00015.json",
+        "bytes": 234
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00016.json",
+        "bytes": 315
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00017.json",
+        "bytes": 235
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00018.json",
+        "bytes": 314
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00019.json",
+        "bytes": 233
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00020.json",
+        "bytes": 313
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00021.json",
+        "bytes": 235
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00022.json",
+        "bytes": 314
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00023.json",
+        "bytes": 234
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00024.json",
+        "bytes": 314
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00025.json",
+        "bytes": 234
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00026.json",
+        "bytes": 315
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00027.json",
+        "bytes": 235
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00028.json",
+        "bytes": 314
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00029.json",
+        "bytes": 235
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00030.json",
+        "bytes": 314
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00031.json",
+        "bytes": 235
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00032.json",
+        "bytes": 314
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00033.json",
+        "bytes": 234
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00034.json",
+        "bytes": 314
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00035.json",
+        "bytes": 234
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00036.json",
+        "bytes": 314
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00037.json",
+        "bytes": 234
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00038.json",
+        "bytes": 314
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00039.json",
+        "bytes": 234
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00040.json",
+        "bytes": 314
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00041.json",
+        "bytes": 233
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00042.json",
+        "bytes": 314
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00043.json",
+        "bytes": 234
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00044.json",
+        "bytes": 314
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00045.json",
+        "bytes": 234
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00046.json",
+        "bytes": 314
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00047.json",
+        "bytes": 234
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00048.json",
+        "bytes": 314
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00049.json",
+        "bytes": 234
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00050.json",
+        "bytes": 314
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00051.json",
+        "bytes": 234
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00052.json",
+        "bytes": 314
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00053.json",
+        "bytes": 234
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00054.json",
+        "bytes": 314
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00055.json",
+        "bytes": 234
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00056.json",
+        "bytes": 314
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00057.json",
+        "bytes": 234
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00058.json",
+        "bytes": 314
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00059.json",
+        "bytes": 233
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00060.json",
+        "bytes": 314
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00061.json",
+        "bytes": 234
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00062.json",
+        "bytes": 313
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00063.json",
+        "bytes": 234
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00064.json",
+        "bytes": 315
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00065.json",
+        "bytes": 235
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00066.json",
+        "bytes": 314
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00067.json",
+        "bytes": 235
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00068.json",
+        "bytes": 315
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00069.json",
+        "bytes": 235
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00070.json",
+        "bytes": 314
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00071.json",
+        "bytes": 235
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00072.json",
+        "bytes": 315
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00073.json",
+        "bytes": 235
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00074.json",
+        "bytes": 315
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00075.json",
+        "bytes": 235
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00076.json",
+        "bytes": 315
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00077.json",
+        "bytes": 235
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00078.json",
+        "bytes": 315
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00079.json",
+        "bytes": 235
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00080.json",
+        "bytes": 314
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00081.json",
+        "bytes": 234
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00082.json",
+        "bytes": 315
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00083.json",
+        "bytes": 235
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00084.json",
+        "bytes": 315
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00085.json",
+        "bytes": 235
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00086.json",
+        "bytes": 315
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00087.json",
+        "bytes": 234
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00088.json",
+        "bytes": 315
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00089.json",
+        "bytes": 235
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00090.json",
+        "bytes": 314
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00091.json",
+        "bytes": 235
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00092.json",
+        "bytes": 315
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00093.json",
+        "bytes": 234
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00094.json",
+        "bytes": 315
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00095.json",
+        "bytes": 235
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00096.json",
+        "bytes": 314
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00097.json",
+        "bytes": 235
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00098.json",
+        "bytes": 314
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00099.json",
+        "bytes": 235
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00100.json",
+        "bytes": 314
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00101.json",
+        "bytes": 235
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00102.json",
+        "bytes": 314
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00103.json",
+        "bytes": 234
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00104.json",
+        "bytes": 315
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00105.json",
+        "bytes": 235
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00106.json",
+        "bytes": 314
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00107.json",
+        "bytes": 235
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00108.json",
+        "bytes": 315
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00109.json",
+        "bytes": 234
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00110.json",
+        "bytes": 315
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00111.json",
+        "bytes": 235
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00112.json",
+        "bytes": 315
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00113.json",
+        "bytes": 235
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00114.json",
+        "bytes": 315
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00115.json",
+        "bytes": 235
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00116.json",
+        "bytes": 315
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00117.json",
+        "bytes": 235
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00118.json",
+        "bytes": 315
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/c66-validation-r5-20261029-a2/events/00119.json",
+        "bytes": 235
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/full-supervision/launch.json",
+        "bytes": 1298
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/full-supervision/outbox.json",
+        "bytes": 492
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/full-supervision/request.json",
+        "bytes": 901
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/full-supervision/result.json",
+        "bytes": 419353
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/full-supervision/status.json",
+        "bytes": 625
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/full-supervision/terminal.json",
+        "bytes": 421667
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/full-supervision/train.log",
+        "bytes": 203776
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/full-supervision/cv-evidence/overlap-archive.json",
+        "bytes": 341692
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/full-supervision/cv-evidence/plan.json",
+        "bytes": 347247
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/full-supervision/cv-evidence/deberta/oof-complete.json",
+        "bytes": 191215
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/full-supervision/cv-evidence/deberta/result.json",
+        "bytes": 505565
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/full-supervision/cv-evidence/electra/oof-complete.json",
+        "bytes": 190944
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/full-supervision/cv-evidence/electra/result.json",
+        "bytes": 505562
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/overlap-archive.json",
+        "bytes": 341692
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/plan.json",
+        "bytes": 347247
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/deberta.log",
+        "bytes": 112681
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/electra.log",
+        "bytes": 112697
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/result.json",
+        "bytes": 1014
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/status.json",
+        "bytes": 618
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/deberta/oof-complete.json",
+        "bytes": 191215
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/deberta/partial-result.json",
+        "bytes": 312188
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/deberta/progress.json",
+        "bytes": 1063
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/deberta/result.json",
+        "bytes": 505565
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/deberta/final/checkpoint-receipt.json",
+        "bytes": 817
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/deberta/final/head.safetensors",
+        "bytes": 73936
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/deberta/final/meta.json",
+        "bytes": 1986
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/deberta/final/encoder/config.json",
+        "bytes": 828
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/deberta/final/encoder/model.safetensors",
+        "bytes": 1736094384
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/deberta/final/encoder/special_tokens_map.json",
+        "bytes": 971
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/deberta/final/encoder/tokenizer.json",
+        "bytes": 8332116
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/deberta/final/encoder/tokenizer_config.json",
+        "bytes": 1415
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/deberta/fold-0/fold-result.json",
+        "bytes": 50967
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/deberta/fold-0/checkpoint/checkpoint-receipt.json",
+        "bytes": 817
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/deberta/fold-0/checkpoint/head.safetensors",
+        "bytes": 73936
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/deberta/fold-0/checkpoint/meta.json",
+        "bytes": 1983
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/deberta/fold-0/checkpoint/encoder/config.json",
+        "bytes": 828
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/deberta/fold-0/checkpoint/encoder/model.safetensors",
+        "bytes": 1736094384
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/deberta/fold-0/checkpoint/encoder/special_tokens_map.json",
+        "bytes": 971
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/deberta/fold-0/checkpoint/encoder/tokenizer.json",
+        "bytes": 8332116
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/deberta/fold-0/checkpoint/encoder/tokenizer_config.json",
+        "bytes": 1415
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/deberta/fold-1/fold-result.json",
+        "bytes": 51323
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/deberta/fold-1/checkpoint/checkpoint-receipt.json",
+        "bytes": 817
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/deberta/fold-1/checkpoint/head.safetensors",
+        "bytes": 73936
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/deberta/fold-1/checkpoint/meta.json",
+        "bytes": 1983
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/deberta/fold-1/checkpoint/encoder/config.json",
+        "bytes": 828
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/deberta/fold-1/checkpoint/encoder/model.safetensors",
+        "bytes": 1736094384
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/deberta/fold-1/checkpoint/encoder/special_tokens_map.json",
+        "bytes": 971
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/deberta/fold-1/checkpoint/encoder/tokenizer.json",
+        "bytes": 8332116
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/deberta/fold-1/checkpoint/encoder/tokenizer_config.json",
+        "bytes": 1415
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/deberta/fold-2/fold-result.json",
+        "bytes": 51212
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/deberta/fold-2/checkpoint/checkpoint-receipt.json",
+        "bytes": 817
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/deberta/fold-2/checkpoint/head.safetensors",
+        "bytes": 73936
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/deberta/fold-2/checkpoint/meta.json",
+        "bytes": 1983
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/deberta/fold-2/checkpoint/encoder/config.json",
+        "bytes": 828
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/deberta/fold-2/checkpoint/encoder/model.safetensors",
+        "bytes": 1736094384
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/deberta/fold-2/checkpoint/encoder/special_tokens_map.json",
+        "bytes": 971
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/deberta/fold-2/checkpoint/encoder/tokenizer.json",
+        "bytes": 8332116
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/deberta/fold-2/checkpoint/encoder/tokenizer_config.json",
+        "bytes": 1415
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/deberta/fold-3/fold-result.json",
+        "bytes": 51428
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/deberta/fold-3/checkpoint/checkpoint-receipt.json",
+        "bytes": 817
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/deberta/fold-3/checkpoint/head.safetensors",
+        "bytes": 73936
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/deberta/fold-3/checkpoint/meta.json",
+        "bytes": 1983
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/deberta/fold-3/checkpoint/encoder/config.json",
+        "bytes": 828
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/deberta/fold-3/checkpoint/encoder/model.safetensors",
+        "bytes": 1736094384
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/deberta/fold-3/checkpoint/encoder/special_tokens_map.json",
+        "bytes": 971
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/deberta/fold-3/checkpoint/encoder/tokenizer.json",
+        "bytes": 8332116
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/deberta/fold-3/checkpoint/encoder/tokenizer_config.json",
+        "bytes": 1415
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/deberta/fold-4/fold-result.json",
+        "bytes": 51610
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/deberta/fold-4/checkpoint/checkpoint-receipt.json",
+        "bytes": 816
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/deberta/fold-4/checkpoint/head.safetensors",
+        "bytes": 73936
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/deberta/fold-4/checkpoint/meta.json",
+        "bytes": 1983
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/deberta/fold-4/checkpoint/encoder/config.json",
+        "bytes": 828
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/deberta/fold-4/checkpoint/encoder/model.safetensors",
+        "bytes": 1736094384
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/deberta/fold-4/checkpoint/encoder/special_tokens_map.json",
+        "bytes": 971
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/deberta/fold-4/checkpoint/encoder/tokenizer.json",
+        "bytes": 8332116
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/deberta/fold-4/checkpoint/encoder/tokenizer_config.json",
+        "bytes": 1415
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/deberta/public-initialization/checkpoint-receipt.json",
+        "bytes": 817
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/deberta/public-initialization/head.safetensors",
+        "bytes": 73936
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/deberta/public-initialization/meta.json",
+        "bytes": 1976
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/deberta/public-initialization/encoder/config.json",
+        "bytes": 828
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/deberta/public-initialization/encoder/model.safetensors",
+        "bytes": 1736094384
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/deberta/public-initialization/encoder/special_tokens_map.json",
+        "bytes": 971
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/deberta/public-initialization/encoder/tokenizer.json",
+        "bytes": 8332116
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/deberta/public-initialization/encoder/tokenizer_config.json",
+        "bytes": 1415
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/electra/oof-complete.json",
+        "bytes": 190944
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/electra/partial-result.json",
+        "bytes": 312362
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/electra/progress.json",
+        "bytes": 1062
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/electra/result.json",
+        "bytes": 505562
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/electra/final/checkpoint-receipt.json",
+        "bytes": 910
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/electra/final/head.safetensors",
+        "bytes": 73936
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/electra/final/meta.json",
+        "bytes": 1986
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/electra/final/encoder/config.json",
+        "bytes": 728
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/electra/final/encoder/model.safetensors",
+        "bytes": 1336413848
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/electra/final/encoder/special_tokens_map.json",
+        "bytes": 695
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/electra/final/encoder/tokenizer.json",
+        "bytes": 711396
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/electra/final/encoder/tokenizer_config.json",
+        "bytes": 1298
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/electra/fold-0/fold-result.json",
+        "bytes": 51205
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/electra/fold-0/checkpoint/checkpoint-receipt.json",
+        "bytes": 909
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/electra/fold-0/checkpoint/head.safetensors",
+        "bytes": 73936
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/electra/fold-0/checkpoint/meta.json",
+        "bytes": 1983
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/electra/fold-0/checkpoint/encoder/config.json",
+        "bytes": 728
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/electra/fold-0/checkpoint/encoder/model.safetensors",
+        "bytes": 1336413848
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/electra/fold-0/checkpoint/encoder/special_tokens_map.json",
+        "bytes": 695
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/electra/fold-0/checkpoint/encoder/tokenizer.json",
+        "bytes": 711396
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/electra/fold-0/checkpoint/encoder/tokenizer_config.json",
+        "bytes": 1298
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/electra/fold-1/fold-result.json",
+        "bytes": 51294
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/electra/fold-1/checkpoint/checkpoint-receipt.json",
+        "bytes": 910
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/electra/fold-1/checkpoint/head.safetensors",
+        "bytes": 73936
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/electra/fold-1/checkpoint/meta.json",
+        "bytes": 1983
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/electra/fold-1/checkpoint/encoder/config.json",
+        "bytes": 728
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/electra/fold-1/checkpoint/encoder/model.safetensors",
+        "bytes": 1336413848
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/electra/fold-1/checkpoint/encoder/special_tokens_map.json",
+        "bytes": 695
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/electra/fold-1/checkpoint/encoder/tokenizer.json",
+        "bytes": 711396
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/electra/fold-1/checkpoint/encoder/tokenizer_config.json",
+        "bytes": 1298
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/electra/fold-2/fold-result.json",
+        "bytes": 51388
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/electra/fold-2/checkpoint/checkpoint-receipt.json",
+        "bytes": 910
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/electra/fold-2/checkpoint/head.safetensors",
+        "bytes": 73936
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/electra/fold-2/checkpoint/meta.json",
+        "bytes": 1983
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/electra/fold-2/checkpoint/encoder/config.json",
+        "bytes": 728
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/electra/fold-2/checkpoint/encoder/model.safetensors",
+        "bytes": 1336413848
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/electra/fold-2/checkpoint/encoder/special_tokens_map.json",
+        "bytes": 695
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/electra/fold-2/checkpoint/encoder/tokenizer.json",
+        "bytes": 711396
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/electra/fold-2/checkpoint/encoder/tokenizer_config.json",
+        "bytes": 1298
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/electra/fold-3/fold-result.json",
+        "bytes": 51458
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/electra/fold-3/checkpoint/checkpoint-receipt.json",
+        "bytes": 910
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/electra/fold-3/checkpoint/head.safetensors",
+        "bytes": 73936
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/electra/fold-3/checkpoint/meta.json",
+        "bytes": 1983
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/electra/fold-3/checkpoint/encoder/config.json",
+        "bytes": 728
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/electra/fold-3/checkpoint/encoder/model.safetensors",
+        "bytes": 1336413848
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/electra/fold-3/checkpoint/encoder/special_tokens_map.json",
+        "bytes": 695
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/electra/fold-3/checkpoint/encoder/tokenizer.json",
+        "bytes": 711396
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/electra/fold-3/checkpoint/encoder/tokenizer_config.json",
+        "bytes": 1298
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/electra/fold-4/fold-result.json",
+        "bytes": 51258
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/electra/fold-4/checkpoint/checkpoint-receipt.json",
+        "bytes": 910
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/electra/fold-4/checkpoint/head.safetensors",
+        "bytes": 73936
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/electra/fold-4/checkpoint/meta.json",
+        "bytes": 1983
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/electra/fold-4/checkpoint/encoder/config.json",
+        "bytes": 728
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/electra/fold-4/checkpoint/encoder/model.safetensors",
+        "bytes": 1336413848
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/electra/fold-4/checkpoint/encoder/special_tokens_map.json",
+        "bytes": 695
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/electra/fold-4/checkpoint/encoder/tokenizer.json",
+        "bytes": 711396
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/electra/fold-4/checkpoint/encoder/tokenizer_config.json",
+        "bytes": 1298
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/electra/public-initialization/checkpoint-receipt.json",
+        "bytes": 910
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/electra/public-initialization/head.safetensors",
+        "bytes": 73936
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/electra/public-initialization/meta.json",
+        "bytes": 1976
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/electra/public-initialization/encoder/config.json",
+        "bytes": 728
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/electra/public-initialization/encoder/model.safetensors",
+        "bytes": 1336413848
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/electra/public-initialization/encoder/special_tokens_map.json",
+        "bytes": 695
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/electra/public-initialization/encoder/tokenizer.json",
+        "bytes": 711396
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/full/electra/public-initialization/encoder/tokenizer_config.json",
+        "bytes": 1298
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/smoke/deberta.log",
+        "bytes": 17542
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/smoke/electra.log",
+        "bytes": 19001
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/smoke/result.json",
+        "bytes": 1018
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/smoke/status.json",
+        "bytes": 619
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/smoke/deberta/partial-result.json",
+        "bytes": 2385
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/smoke/deberta/progress.json",
+        "bytes": 755
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/smoke/deberta/result.json",
+        "bytes": 3960
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/smoke/deberta/public-initialization/checkpoint-receipt.json",
+        "bytes": 817
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/smoke/deberta/public-initialization/head.safetensors",
+        "bytes": 73936
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/smoke/deberta/public-initialization/meta.json",
+        "bytes": 1974
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/smoke/deberta/public-initialization/encoder/config.json",
+        "bytes": 828
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/smoke/deberta/public-initialization/encoder/model.safetensors",
+        "bytes": 1736094384
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/smoke/deberta/public-initialization/encoder/special_tokens_map.json",
+        "bytes": 971
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/smoke/deberta/public-initialization/encoder/tokenizer.json",
+        "bytes": 8332214
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/smoke/deberta/public-initialization/encoder/tokenizer_config.json",
+        "bytes": 1415
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/smoke/electra/partial-result.json",
+        "bytes": 2477
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/smoke/electra/progress.json",
+        "bytes": 756
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/smoke/electra/result.json",
+        "bytes": 4052
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/smoke/electra/public-initialization/checkpoint-receipt.json",
+        "bytes": 911
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/smoke/electra/public-initialization/head.safetensors",
+        "bytes": 73936
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/smoke/electra/public-initialization/meta.json",
+        "bytes": 1974
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/smoke/electra/public-initialization/encoder/config.json",
+        "bytes": 728
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/smoke/electra/public-initialization/encoder/model.safetensors",
+        "bytes": 1336413848
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/smoke/electra/public-initialization/encoder/special_tokens_map.json",
+        "bytes": 695
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/smoke/electra/public-initialization/encoder/tokenizer.json",
+        "bytes": 711494
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/prepared/smoke/electra/public-initialization/encoder/tokenizer_config.json",
+        "bytes": 1298
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/smoke-supervision/launch.json",
+        "bytes": 1759
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/smoke-supervision/outbox.json",
+        "bytes": 308
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/smoke-supervision/request.json",
+        "bytes": 421
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/smoke-supervision/result.json",
+        "bytes": 9422
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/smoke-supervision/status.json",
+        "bytes": 624
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/smoke-supervision/terminal.json",
+        "bytes": 11283
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/smoke-supervision/train.log",
+        "bytes": 1244
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/smoke-supervision/cv-evidence/deberta-result.json",
+        "bytes": 3960
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/smoke-supervision/cv-evidence/electra-result.json",
+        "bytes": 4052
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/smoke-supervision/cv-evidence/overlap-archive.json",
+        "bytes": 341692
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/encoders-r5-20261029-a1/smoke-supervision/cv-evidence/plan.json",
+        "bytes": 347247
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-21109a6bb9e6425f92ab41c588bc6e44/data-manifest.json",
+        "bytes": 7405
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-21109a6bb9e6425f92ab41c588bc6e44/result.json",
+        "bytes": 44704
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-21109a6bb9e6425f92ab41c588bc6e44/split.json",
+        "bytes": 1883
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-21109a6bb9e6425f92ab41c588bc6e44/final/heads.safetensors",
+        "bytes": 6227664
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-21109a6bb9e6425f92ab41c588bc6e44/final/meta.json",
+        "bytes": 1802
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-21109a6bb9e6425f92ab41c588bc6e44/final/adapter/README.md",
+        "bytes": 5242
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-21109a6bb9e6425f92ab41c588bc6e44/final/adapter/adapter_config.json",
+        "bytes": 1068
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-21109a6bb9e6425f92ab41c588bc6e44/final/adapter/adapter_model.safetensors",
+        "bytes": 173456688
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-21109a6bb9e6425f92ab41c588bc6e44/holdout-best/heads.safetensors",
+        "bytes": 6227664
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-21109a6bb9e6425f92ab41c588bc6e44/holdout-best/meta.json",
+        "bytes": 1801
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-21109a6bb9e6425f92ab41c588bc6e44/holdout-best/adapter/README.md",
+        "bytes": 5242
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-21109a6bb9e6425f92ab41c588bc6e44/holdout-best/adapter/adapter_config.json",
+        "bytes": 1068
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-21109a6bb9e6425f92ab41c588bc6e44/holdout-best/adapter/adapter_model.safetensors",
+        "bytes": 173456688
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/artifact-hashes.json",
+        "bytes": 20592
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/data-manifest.json",
+        "bytes": 7405
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/result.json",
+        "bytes": 157384
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/split.json",
+        "bytes": 12849
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/cv-evidence/decision.json",
+        "bytes": 382836
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/cv-evidence/summary.json",
+        "bytes": 381269
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/ensemble/ensemble.json",
+        "bytes": 1008
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/ensemble/member-0/heads.safetensors",
+        "bytes": 6227664
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/ensemble/member-0/meta.json",
+        "bytes": 3683
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/ensemble/member-0/adapter/README.md",
+        "bytes": 5242
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/ensemble/member-0/adapter/adapter_config.json",
+        "bytes": 1068
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/ensemble/member-0/adapter/adapter_model.safetensors",
+        "bytes": 173456688
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/ensemble/member-1/heads.safetensors",
+        "bytes": 6227664
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/ensemble/member-1/meta.json",
+        "bytes": 3683
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/ensemble/member-1/adapter/README.md",
+        "bytes": 5242
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/ensemble/member-1/adapter/adapter_config.json",
+        "bytes": 1068
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/ensemble/member-1/adapter/adapter_model.safetensors",
+        "bytes": 173456688
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/ensemble/member-2/heads.safetensors",
+        "bytes": 6227664
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/ensemble/member-2/meta.json",
+        "bytes": 3683
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/ensemble/member-2/adapter/README.md",
+        "bytes": 5242
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/ensemble/member-2/adapter/adapter_config.json",
+        "bytes": 1068
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/ensemble/member-2/adapter/adapter_model.safetensors",
+        "bytes": 173456688
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/ensemble/member-3/heads.safetensors",
+        "bytes": 6227664
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/ensemble/member-3/meta.json",
+        "bytes": 3683
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/ensemble/member-3/adapter/README.md",
+        "bytes": 5242
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/ensemble/member-3/adapter/adapter_config.json",
+        "bytes": 1068
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/ensemble/member-3/adapter/adapter_model.safetensors",
+        "bytes": 173456688
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/ensemble/member-4/heads.safetensors",
+        "bytes": 6227664
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/ensemble/member-4/meta.json",
+        "bytes": 3683
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/ensemble/member-4/adapter/README.md",
+        "bytes": 5242
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/ensemble/member-4/adapter/adapter_config.json",
+        "bytes": 1068
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/ensemble/member-4/adapter/adapter_model.safetensors",
+        "bytes": 173456688
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/final/heads.safetensors",
+        "bytes": 6227664
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/final/meta.json",
+        "bytes": 3687
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/final/adapter/README.md",
+        "bytes": 5242
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/final/adapter/adapter_config.json",
+        "bytes": 1068
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/final/adapter/adapter_model.safetensors",
+        "bytes": 173456688
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/folds/candidate/fold-0/heads.safetensors",
+        "bytes": 6227664
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/folds/candidate/fold-0/meta.json",
+        "bytes": 3685
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/folds/candidate/fold-0/adapter/README.md",
+        "bytes": 5242
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/folds/candidate/fold-0/adapter/adapter_config.json",
+        "bytes": 1068
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/folds/candidate/fold-0/adapter/adapter_model.safetensors",
+        "bytes": 173456688
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/folds/candidate/fold-1/heads.safetensors",
+        "bytes": 6227664
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/folds/candidate/fold-1/meta.json",
+        "bytes": 3685
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/folds/candidate/fold-1/adapter/README.md",
+        "bytes": 5242
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/folds/candidate/fold-1/adapter/adapter_config.json",
+        "bytes": 1068
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/folds/candidate/fold-1/adapter/adapter_model.safetensors",
+        "bytes": 173456688
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/folds/candidate/fold-2/heads.safetensors",
+        "bytes": 6227664
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/folds/candidate/fold-2/meta.json",
+        "bytes": 3685
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/folds/candidate/fold-2/adapter/README.md",
+        "bytes": 5242
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/folds/candidate/fold-2/adapter/adapter_config.json",
+        "bytes": 1068
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/folds/candidate/fold-2/adapter/adapter_model.safetensors",
+        "bytes": 173456688
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/folds/candidate/fold-3/heads.safetensors",
+        "bytes": 6227664
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/folds/candidate/fold-3/meta.json",
+        "bytes": 3685
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/folds/candidate/fold-3/adapter/README.md",
+        "bytes": 5242
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/folds/candidate/fold-3/adapter/adapter_config.json",
+        "bytes": 1068
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/folds/candidate/fold-3/adapter/adapter_model.safetensors",
+        "bytes": 173456688
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/folds/candidate/fold-4/heads.safetensors",
+        "bytes": 6227664
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/folds/candidate/fold-4/meta.json",
+        "bytes": 3685
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/folds/candidate/fold-4/adapter/README.md",
+        "bytes": 5242
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/folds/candidate/fold-4/adapter/adapter_config.json",
+        "bytes": 1068
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/folds/candidate/fold-4/adapter/adapter_model.safetensors",
+        "bytes": 173456688
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/folds/control/fold-0/heads.safetensors",
+        "bytes": 6227664
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/folds/control/fold-0/meta.json",
+        "bytes": 3683
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/folds/control/fold-0/adapter/README.md",
+        "bytes": 5242
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/folds/control/fold-0/adapter/adapter_config.json",
+        "bytes": 1068
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/folds/control/fold-0/adapter/adapter_model.safetensors",
+        "bytes": 173456688
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/folds/control/fold-1/heads.safetensors",
+        "bytes": 6227664
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/folds/control/fold-1/meta.json",
+        "bytes": 3683
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/folds/control/fold-1/adapter/README.md",
+        "bytes": 5242
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/folds/control/fold-1/adapter/adapter_config.json",
+        "bytes": 1068
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/folds/control/fold-1/adapter/adapter_model.safetensors",
+        "bytes": 173456688
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/folds/control/fold-2/heads.safetensors",
+        "bytes": 6227664
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/folds/control/fold-2/meta.json",
+        "bytes": 3683
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/folds/control/fold-2/adapter/README.md",
+        "bytes": 5242
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/folds/control/fold-2/adapter/adapter_config.json",
+        "bytes": 1068
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/folds/control/fold-2/adapter/adapter_model.safetensors",
+        "bytes": 173456688
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/folds/control/fold-3/heads.safetensors",
+        "bytes": 6227664
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/folds/control/fold-3/meta.json",
+        "bytes": 3683
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/folds/control/fold-3/adapter/README.md",
+        "bytes": 5242
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/folds/control/fold-3/adapter/adapter_config.json",
+        "bytes": 1068
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/folds/control/fold-3/adapter/adapter_model.safetensors",
+        "bytes": 173456688
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/folds/control/fold-4/heads.safetensors",
+        "bytes": 6227664
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/folds/control/fold-4/meta.json",
+        "bytes": 3683
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/folds/control/fold-4/adapter/README.md",
+        "bytes": 5242
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/folds/control/fold-4/adapter/adapter_config.json",
+        "bytes": 1068
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/folds/control/fold-4/adapter/adapter_model.safetensors",
+        "bytes": 173456688
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/stage1/heads.safetensors",
+        "bytes": 6227664
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/stage1/meta.json",
+        "bytes": 3645
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/stage1/rng-rank-0.pt",
+        "bytes": 14250
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/stage1/rng-rank-1.pt",
+        "bytes": 14250
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/stage1/adapter/README.md",
+        "bytes": 5242
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/stage1/adapter/adapter_config.json",
+        "bytes": 1068
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/job-3130182971224c338b0cb126a2033198/stage1/adapter/adapter_model.safetensors",
+        "bytes": 173456688
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-components-v4-20261029-1200-a1/development-decision.json",
+        "bytes": 2337
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-components-v4-20261029-1200-a1/launch.json",
+        "bytes": 3267
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-components-v4-20261029-1200-a1/outbox.json",
+        "bytes": 310
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-components-v4-20261029-1200-a1/request.json",
+        "bytes": 476
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-components-v4-20261029-1200-a1/result.json",
+        "bytes": 13497
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-components-v4-20261029-1200-a1/runtime4000.json",
+        "bytes": 5382
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-components-v4-20261029-1200-a1/status.json",
+        "bytes": 625
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-components-v4-20261029-1200-a1/terminal.json",
+        "bytes": 15078
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-components-v4-20261029-1200-a1/train.log",
+        "bytes": 22359
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-components-v4-20261029-1200-a1/candidate/manifest.json",
+        "bytes": 1531
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-components-v4-20261029-1200-a1/control/heads.safetensors",
+        "bytes": 6227664
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-components-v4-20261029-1200-a1/control/meta.json",
+        "bytes": 3687
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-components-v4-20261029-1200-a1/control/adapter/adapter_config.json",
+        "bytes": 1068
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-components-v4-20261029-1200-a1/control/adapter/adapter_model.safetensors",
+        "bytes": 173456688
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-components-v4-20261029-1200-a1/cv-evidence/decision.json",
+        "bytes": 2337
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-components-v4-20261029-1200-a1/cv-evidence/eight-head-diagnostics.json",
+        "bytes": 1669
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-components-v4-20261029-1200-a1/cv-evidence/historical-oof.json",
+        "bytes": 18148
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-components-v4-20261029-1200-a1/cv-evidence/partial-fold-0.json",
+        "bytes": 10300
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-components-v4-20261029-1200-a1/cv-evidence/partial-fold-1.json",
+        "bytes": 10297
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-components-v4-20261029-1200-a1/cv-evidence/partial-fold-2.json",
+        "bytes": 10296
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-components-v4-20261029-1200-a1/cv-evidence/partial-fold-3.json",
+        "bytes": 10294
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-components-v4-20261029-1200-a1/cv-evidence/partial-fold-4.json",
+        "bytes": 10298
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-components-v4-20261029-1200-a1/cv-evidence/performance.json",
+        "bytes": 8858
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-components-v4-20261029-1200-a1/cv-evidence/source_manifest.json",
+        "bytes": 11148
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-components-v4-20261029-1200-a1/cv-evidence/stress.json",
+        "bytes": 115161
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-components-v4-20261029-1200-a1/cv-evidence/summary.json",
+        "bytes": 1332738
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-components-v4-20261029-1200-a1/folds/fold-0/fold.json",
+        "bytes": 3460
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-components-v4-20261029-1200-a1/folds/fold-1/fold.json",
+        "bytes": 3461
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-components-v4-20261029-1200-a1/folds/fold-2/fold.json",
+        "bytes": 3462
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-components-v4-20261029-1200-a1/folds/fold-3/fold.json",
+        "bytes": 3461
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-components-v4-20261029-1200-a1/folds/fold-4/fold.json",
+        "bytes": 3460
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-components-v4-20261029-1200-a1/historical-public-oof/source_manifest.json",
+        "bytes": 18148
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-parallel-feature-smoke-r5-20261029-a1/launch.json",
+        "bytes": 1783
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-parallel-feature-smoke-r5-20261029-a1/outbox.json",
+        "bytes": 317
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-parallel-feature-smoke-r5-20261029-a1/request.json",
+        "bytes": 983
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-parallel-feature-smoke-r5-20261029-a1/result.json",
+        "bytes": 46363
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-parallel-feature-smoke-r5-20261029-a1/status.json",
+        "bytes": 625
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-parallel-feature-smoke-r5-20261029-a1/terminal.json",
+        "bytes": 48873
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-parallel-feature-smoke-r5-20261029-a1/train.log",
+        "bytes": 1116
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-parallel-feature-smoke-r5-20261029-a1/cv-evidence/encoder/benchmark.json",
+        "bytes": 16004
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-parallel-feature-smoke-r5-20261029-a1/cv-evidence/encoder/parallel/request.json",
+        "bytes": 1143
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-parallel-feature-smoke-r5-20261029-a1/cv-evidence/encoder/parallel/status.json",
+        "bytes": 1096
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-parallel-feature-smoke-r5-20261029-a1/cv-evidence/encoder/parallel/member-0/receipt.json",
+        "bytes": 3304
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-parallel-feature-smoke-r5-20261029-a1/cv-evidence/encoder/parallel/member-0/task.json",
+        "bytes": 471
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-parallel-feature-smoke-r5-20261029-a1/cv-evidence/encoder/parallel/member-0/verified-receipt.json",
+        "bytes": 3414
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-parallel-feature-smoke-r5-20261029-a1/cv-evidence/encoder/parallel/member-0/worker.log",
+        "bytes": 12808
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-parallel-feature-smoke-r5-20261029-a1/cv-evidence/encoder/parallel/member-1/receipt.json",
+        "bytes": 3302
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-parallel-feature-smoke-r5-20261029-a1/cv-evidence/encoder/parallel/member-1/task.json",
+        "bytes": 471
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-parallel-feature-smoke-r5-20261029-a1/cv-evidence/encoder/parallel/member-1/verified-receipt.json",
+        "bytes": 3412
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-parallel-feature-smoke-r5-20261029-a1/cv-evidence/encoder/parallel/member-1/worker.log",
+        "bytes": 12807
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-parallel-feature-smoke-r5-20261029-a1/cv-evidence/encoder/serial/request.json",
+        "bytes": 1129
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-parallel-feature-smoke-r5-20261029-a1/cv-evidence/encoder/serial/status.json",
+        "bytes": 1079
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-parallel-feature-smoke-r5-20261029-a1/cv-evidence/encoder/serial/member-0/receipt.json",
+        "bytes": 3301
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-parallel-feature-smoke-r5-20261029-a1/cv-evidence/encoder/serial/member-0/task.json",
+        "bytes": 471
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-parallel-feature-smoke-r5-20261029-a1/cv-evidence/encoder/serial/member-0/verified-receipt.json",
+        "bytes": 3411
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-parallel-feature-smoke-r5-20261029-a1/cv-evidence/encoder/serial/member-0/worker.log",
+        "bytes": 12768
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-parallel-feature-smoke-r5-20261029-a1/cv-evidence/encoder/serial/member-1/receipt.json",
+        "bytes": 3301
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-parallel-feature-smoke-r5-20261029-a1/cv-evidence/encoder/serial/member-1/task.json",
+        "bytes": 471
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-parallel-feature-smoke-r5-20261029-a1/cv-evidence/encoder/serial/member-1/verified-receipt.json",
+        "bytes": 3411
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-parallel-feature-smoke-r5-20261029-a1/cv-evidence/encoder/serial/member-1/worker.log",
+        "bytes": 12807
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-parallel-feature-smoke-r5-20261029-a1/cv-evidence/mixed/benchmark.json",
+        "bytes": 26062
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-parallel-feature-smoke-r5-20261029-a1/cv-evidence/mixed/parallel/request.json",
+        "bytes": 1418
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-parallel-feature-smoke-r5-20261029-a1/cv-evidence/mixed/parallel/status.json",
+        "bytes": 1088
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-parallel-feature-smoke-r5-20261029-a1/cv-evidence/mixed/parallel/encoder/receipt.json",
+        "bytes": 3300
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-parallel-feature-smoke-r5-20261029-a1/cv-evidence/mixed/parallel/encoder/task.json",
+        "bytes": 574
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-parallel-feature-smoke-r5-20261029-a1/cv-evidence/mixed/parallel/encoder/verified-receipt.json",
+        "bytes": 3410
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-parallel-feature-smoke-r5-20261029-a1/cv-evidence/mixed/parallel/encoder/worker.log",
+        "bytes": 12725
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-parallel-feature-smoke-r5-20261029-a1/cv-evidence/mixed/parallel/p-final/receipt.json",
+        "bytes": 7615
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-parallel-feature-smoke-r5-20261029-a1/cv-evidence/mixed/parallel/p-final/task.json",
+        "bytes": 631
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-parallel-feature-smoke-r5-20261029-a1/cv-evidence/mixed/parallel/p-final/verified-receipt.json",
+        "bytes": 7725
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-parallel-feature-smoke-r5-20261029-a1/cv-evidence/mixed/parallel/p-final/worker.log",
+        "bytes": 13601
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-parallel-feature-smoke-r5-20261029-a1/cv-evidence/mixed/serial/request.json",
+        "bytes": 1404
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-parallel-feature-smoke-r5-20261029-a1/cv-evidence/mixed/serial/status.json",
+        "bytes": 1069
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-parallel-feature-smoke-r5-20261029-a1/cv-evidence/mixed/serial/encoder/receipt.json",
+        "bytes": 3298
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-parallel-feature-smoke-r5-20261029-a1/cv-evidence/mixed/serial/encoder/task.json",
+        "bytes": 574
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-parallel-feature-smoke-r5-20261029-a1/cv-evidence/mixed/serial/encoder/verified-receipt.json",
+        "bytes": 3408
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-parallel-feature-smoke-r5-20261029-a1/cv-evidence/mixed/serial/encoder/worker.log",
+        "bytes": 12807
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-parallel-feature-smoke-r5-20261029-a1/cv-evidence/mixed/serial/p-final/receipt.json",
+        "bytes": 7613
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-parallel-feature-smoke-r5-20261029-a1/cv-evidence/mixed/serial/p-final/task.json",
+        "bytes": 631
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-parallel-feature-smoke-r5-20261029-a1/cv-evidence/mixed/serial/p-final/verified-receipt.json",
+        "bytes": 7723
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-parallel-feature-smoke-r5-20261029-a1/cv-evidence/mixed/serial/p-final/worker.log",
+        "bytes": 13601
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-transport-mcp-v4-20261029-1158-a2-failure/launch.json",
+        "bytes": 1987
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-transport-mcp-v4-20261029-1158-a2-failure/outbox.json",
+        "bytes": 318
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-transport-mcp-v4-20261029-1158-a2-failure/probe-verification.json",
+        "bytes": 7032
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-transport-mcp-v4-20261029-1158-a2-failure/request.json",
+        "bytes": 163
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-transport-mcp-v4-20261029-1158-a2-failure/result.json",
+        "bytes": 196
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-transport-mcp-v4-20261029-1158-a2-failure/status.json",
+        "bytes": 623
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-transport-mcp-v4-20261029-1158-a2-failure/terminal.json",
+        "bytes": 2555
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-transport-mcp-v4-20261029-1158-a2-failure/train.log",
+        "bytes": 28
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-transport-mcp-v4-20261029-1158-a2-orphan/launch.json",
+        "bytes": 2091
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-transport-mcp-v4-20261029-1158-a2-orphan/outbox.json",
+        "bytes": 317
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-transport-mcp-v4-20261029-1158-a2-orphan/probe-verification.json",
+        "bytes": 7292
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-transport-mcp-v4-20261029-1158-a2-orphan/request.json",
+        "bytes": 161
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-transport-mcp-v4-20261029-1158-a2-orphan/result.json",
+        "bytes": 196
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-transport-mcp-v4-20261029-1158-a2-orphan/status.json",
+        "bytes": 715
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-transport-mcp-v4-20261029-1158-a2-orphan/terminal.json",
+        "bytes": 2687
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-transport-mcp-v4-20261029-1158-a2-orphan/train.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-transport-mcp-v4-20261029-1158-a2-success/launch.json",
+        "bytes": 1965
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-transport-mcp-v4-20261029-1158-a2-success/outbox.json",
+        "bytes": 321
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-transport-mcp-v4-20261029-1158-a2-success/probe-verification.json",
+        "bytes": 6656
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-transport-mcp-v4-20261029-1158-a2-success/request.json",
+        "bytes": 163
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-transport-mcp-v4-20261029-1158-a2-success/result.json",
+        "bytes": 196
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-transport-mcp-v4-20261029-1158-a2-success/status.json",
+        "bytes": 625
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-transport-mcp-v4-20261029-1158-a2-success/terminal.json",
+        "bytes": 2250
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-transport-mcp-v4-20261029-1158-a2-success/train.log",
+        "bytes": 18
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-transport-mcp-v4-20261029-1158-a2-timeout/launch.json",
+        "bytes": 2093
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-transport-mcp-v4-20261029-1158-a2-timeout/outbox.json",
+        "bytes": 321
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-transport-mcp-v4-20261029-1158-a2-timeout/probe-verification.json",
+        "bytes": 7310
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-transport-mcp-v4-20261029-1158-a2-timeout/request.json",
+        "bytes": 163
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-transport-mcp-v4-20261029-1158-a2-timeout/result.json",
+        "bytes": 196
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-transport-mcp-v4-20261029-1158-a2-timeout/status.json",
+        "bytes": 801
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-transport-mcp-v4-20261029-1158-a2-timeout/terminal.json",
+        "bytes": 2666
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-transport-mcp-v4-20261029-1158-a2-timeout/train.log",
+        "bytes": 0
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-transport-mcp-v4-20261029-1200-a1-failure/launch.json",
+        "bytes": 1987
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-transport-mcp-v4-20261029-1200-a1-failure/outbox.json",
+        "bytes": 318
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-transport-mcp-v4-20261029-1200-a1-failure/request.json",
+        "bytes": 163
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-transport-mcp-v4-20261029-1200-a1-failure/status.json",
+        "bytes": 327
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-transport-mcp-v4-20261029-1200-a1-failure/terminal.json",
+        "bytes": 1970
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-transport-mcp-v4-20261029-1200-a1-success/launch.json",
+        "bytes": 1965
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-transport-mcp-v4-20261029-1200-a1-success/outbox.json",
+        "bytes": 321
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-transport-mcp-v4-20261029-1200-a1-success/probe-verification.json",
+        "bytes": 6574
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-transport-mcp-v4-20261029-1200-a1-success/request.json",
+        "bytes": 163
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-transport-mcp-v4-20261029-1200-a1-success/result.json",
+        "bytes": 196
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-transport-mcp-v4-20261029-1200-a1-success/status.json",
+        "bytes": 625
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-transport-mcp-v4-20261029-1200-a1-success/terminal.json",
+        "bytes": 2250
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/managed-transport-mcp-v4-20261029-1200-a1-success/train.log",
+        "bytes": 18
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/round5-encoder-review-a1/durable-verification.json",
+        "bytes": 4961
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/round5-encoder-review-a1/result.json",
+        "bytes": 154376
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/round5-postprocess-a1/fit-identities.json",
+        "bytes": 311474
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/round5-postprocess-a1/result.json",
+        "bytes": 220969
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/round5-postprocess-a1/stress/class_skew.selection.json",
+        "bytes": 53921
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/round5-postprocess-a1/stress/sparse_1_seed_42.selection.json",
+        "bytes": 9217
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/round5-postprocess-a1/stress/sparse_1_seed_43.selection.json",
+        "bytes": 9218
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/round5-postprocess-a1/stress/sparse_3_seed_42.selection.json",
+        "bytes": 19056
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/round5-postprocess-a1/stress/sparse_3_seed_43.selection.json",
+        "bytes": 19056
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/round5-postprocess-a1/stress/sparse_6_seed_42.selection.json",
+        "bytes": 33874
+      },
+      {
+        "path": "/workspace/name-that-llm/web-pro-checkpoints/round5-postprocess-a1/stress/sparse_6_seed_43.selection.json",
+        "bytes": 33871
+      }
+    ]
+  },
+  "training_evidence_note": "Downloaded public checkpoints and their optimizer states do not establish personal training. Use provenance, commands, and training logs together."
+}

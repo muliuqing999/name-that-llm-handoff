@@ -61,7 +61,3 @@ python -m unittest discover -s '当前优化版代码/tests' -p test_runtime.py 
 - 最新优化所基于的公开方案：[ozertuu / Dual SVC Residual Refinement APEX](https://www.kaggle.com/code/ozertuu/0-689-dual-svc-residual-refinement-apex)
 - 历史复现涉及 Dhananjay、whitegg 等作者，具体链接和版本见报告、Notebook 原始说明和元数据。
 - 原始 Notebook、模型和数据的权利及许可属于各自权利人，使用和再分发应遵循原始来源许可。本仓库没有以统一许可证重新授权第三方内容。
-
-## 学院实例校外连接
-
-在学院允许的环境中，使用 Tailscale 私有网络连接 Linux Notebook。教程包含用户态部署、SSH 公钥、端口映射和校外验收。[阅读教程](guides/tailscale-private-ssh/) · [下载脚本包](guides/tailscale-private-ssh/tailscale-private-ssh.zip)
